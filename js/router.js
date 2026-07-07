@@ -6,8 +6,6 @@ const Router = {
     { pattern: /^\/archetypes$/, view: () => ArchetypesListView, tab: "/archetypes" },
     { pattern: /^\/archetype\/([a-z-]+)$/, view: () => ArchetypeView, tab: "/archetypes" },
     { pattern: /^\/other-support$/, view: () => OtherSupportView, tab: "/archetypes" },
-    { pattern: /^\/banlist$/, view: () => BanlistView, tab: "/banlist" },
-    { pattern: /^\/notes$/, view: () => NotesView, tab: "/notes" },
   ],
 
   init() {

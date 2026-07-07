@@ -57,21 +57,15 @@ const ArchetypeView = {
           <div class="decklabel">${escapeHtml(deck.label)}</div>
 
           <h3>Main Deck</h3>
-          <table class="decktable">
-            <thead><tr><th>Card</th><th>Qty</th></tr></thead>
-            <tbody>
-              ${deck.main.map((c) => `<tr><td>${escapeHtml(c.name)}</td><td class="qty">${c.qty}</td></tr>`).join("")}
-            </tbody>
-          </table>
+          <div class="deckgrid">
+            ${deck.main.map((c) => CardTile.renderDeckCard(c.name, c.qty)).join("")}
+          </div>
           <div class="decktotal">${sumQty(deck.main)} Cards</div>
 
           <h3>Extra Deck</h3>
-          <table class="decktable">
-            <thead><tr><th>Card</th><th>Qty</th></tr></thead>
-            <tbody>
-              ${deck.extra.map((c) => `<tr><td>${escapeHtml(c.name)}</td><td class="qty">${c.qty}</td></tr>`).join("")}
-            </tbody>
-          </table>
+          <div class="deckgrid">
+            ${deck.extra.map((c) => CardTile.renderDeckCard(c.name, c.qty)).join("")}
+          </div>
           <div class="decktotal">${sumQty(deck.extra)} Cards</div>
         </section>
       `

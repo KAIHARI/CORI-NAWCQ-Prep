@@ -1,4 +1,4 @@
-const CACHE_NAME = "cori-prep-v1";
+const CACHE_NAME = "cori-prep-v2";
 
 const APP_SHELL = [
   "./",
@@ -15,14 +15,11 @@ const APP_SHELL = [
   "./js/views/home.js",
   "./js/views/archetypes-list.js",
   "./js/views/archetype.js",
-  "./js/views/banlist.js",
   "./js/views/other-support.js",
-  "./js/views/notes.js",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
   "./assets/icons/icon-maskable-512.png",
   "./data/event.json",
-  "./data/banlist.json",
   "./data/other-support.json",
   "./data/archetypes/blitzclique.json",
   "./data/archetypes/rolad.json",

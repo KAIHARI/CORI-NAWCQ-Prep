@@ -15,10 +15,6 @@ const DataStore = {
     return this._load("data/event.json");
   },
 
-  getBanlist() {
-    return this._load("data/banlist.json");
-  },
-
   getOtherSupport() {
     return this._load("data/other-support.json");
   },

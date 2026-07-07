@@ -4,27 +4,28 @@
   "shorthand": null,
   "accentColor": "#2E8B57",
   "status": "supported",
-  "statusLabel": "Supported, Not New — debuted in Burst Protocol",
-  "summary": "Elfnote is NOT a Chaos Origins original — it debuted roughly 9 months earlier in Burst Protocol. CORI adds new support that completes the archetype's game plan. Level 6 Spellcaster monsters of varying Attributes plus Synchro Monsters, built around shuffling monsters through the Center Main Monster Zone and pairs well with a Synchron sub-engine.",
+  "statusLabel": "Supported, Not New — real Tier 1, boosted by CORI",
+  "summary": "Elfnote is NOT a Chaos Origins original — it debuted roughly 9 months earlier in Burst Protocol. CORI adds Elfnote June Pride, the Synchro closer that completes the archetype's game plan. Level 6 Spellcaster monsters built around shuffling through the Center Main Monster Zone, paired with a Synchron sub-engine. Confirmed real and strong: 106 of 1,084 tracked OCG Top-cut decks in the Apr–Jun 2026 season ran Elfnote, and a \"Kewl Tune Elfnote\" hybrid (piloted by ぽとふ) took 1st place at the 9th Midnight kinta CS in Tokyo on June 28, 2026.",
   "cards": [
-    { "name": "Elfnote June Pride", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": null, "race": "Spellcaster", "level": null, "atk": null, "def": null, "effectText": "New in CORI. Can return itself to the Extra Deck during your Main Phase to Special Summon up to 1 Elfnote monster each from your hand, Deck, and GY (once per turn). Widely described as the card that 'completes' the archetype.", "slug": "elfnote-june-pride" },
-    { "name": "Elfnote Regina", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": 6, "atk": null, "def": null, "effectText": "Starter piece — can Special Summon itself under the right conditions and adds any Elfnote monster from the Deck to your hand.", "slug": "elfnote-regina" },
-    { "name": "Elfnote Fortuna", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": 6, "atk": null, "def": null, "effectText": "Places a card referred to as 'Rhapsodia of Madness,' can Special Summon itself from the GY, and can negate a face-up card on the field.", "slug": "elfnote-fortuna" },
-    { "name": "Elfnote Power Patron", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": null, "atk": null, "def": null, "effectText": "Raises Elfnote Regina's Level, which is what enables Elfnote June Pride's Synchro Summon.", "slug": "elfnote-power-patron" },
-    { "name": "Medius the Pure", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": null, "level": null, "atk": null, "def": null, "effectText": "Cross-archetype tutor target shared with Artmage and DoomZ — a card can Special Summon it from hand or Deck if you control an Artmage, DoomZ, or Elfnote card.", "slug": "medius-the-pure" }
+    { "name": "Elfnote June Pride", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Spellcaster", "level": 10, "atk": 3100, "def": 1800, "effectText": "CORI-EN035. Materials: 1 Tuner + 1 non-Tuner Spellcaster monster. While this card is in the center Main Monster Zone, neither player can declare an attack except with a monster in their own center Main Monster Zone. During your Main Phase, if this card is in the center Main Monster Zone (Quick Effect): return this card to the Extra Deck, and if you do, Special Summon up to 1 \"Elfnote\" monster each from your hand, Deck, and GY. Once per turn. Widely described as the card that \"completes\" the archetype — this is CORI's only new Elfnote-named card.", "slug": "elfnote-june-pride" },
+    { "name": "Elfnote Regina", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": 6, "atk": null, "def": null, "effectText": "Pre-CORI starter piece (Burst Protocol) — can Special Summon itself under the right conditions and adds any Elfnote monster from the Deck to your hand.", "slug": "elfnote-regina" },
+    { "name": "Elfnote Fortuna", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": 6, "atk": null, "def": null, "effectText": "Pre-CORI (Burst Protocol) — places a card referred to as 'Rhapsodia of Madness,' can Special Summon itself from the GY, and can negate a face-up card on the field.", "slug": "elfnote-fortuna" },
+    { "name": "Elfnote Power Patron", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": null, "atk": null, "def": null, "effectText": "Pre-CORI (Burst Protocol) — raises Elfnote Regina's Level, which is what enables Synchro Summoning Elfnote June Pride.", "slug": "elfnote-power-patron" },
+    { "name": "Medius the Pure", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": null, "level": null, "atk": null, "def": null, "effectText": "Cross-archetype tutor target shared with Artmage and DoomZ — can be Special Summoned from hand or Deck if you control an Artmage, DoomZ, or Elfnote card.", "slug": "medius-the-pure" }
   ],
   "comboLines": [
-    { "title": "Center Monster Zone shuffle into June Pride", "body": "Elfnote's signature play is cycling monsters through the Center Main Monster Zone to set up Synchro Summons. Use Elfnote Power Patron to raise Elfnote Regina's Level to the right number to Synchro Summon Elfnote June Pride, then bounce June Pride back to the Extra Deck on a later Main Phase to reload up to 3 more Elfnote monsters from hand, Deck, and GY." }
+    { "title": "Center Monster Zone shuffle into June Pride", "body": "Elfnote's signature play is cycling monsters through the Center Main Monster Zone to set up Synchro Summons. Use Elfnote Power Patron to raise Elfnote Regina's Level to the right number, Synchro Summon Elfnote June Pride (Tuner + non-Tuner Spellcaster — a Synchron like Jet Synchron works fine as the Tuner), then bounce June Pride back to the Extra Deck on a later Main Phase to reload up to 3 more Elfnote monsters from hand, Deck, and GY." },
+    { "title": "The real meta build hybridizes with Kewl Tune", "body": "The highest-profile confirmed 2026 result for this archetype (1st place, Midnight kinta CS, Tokyo) was piloted as \"Kewl Tune Elfnote\" — a hybrid with the all-Tuner Kewl Tune Synchro engine (from Blazing Dominion, the Core Booster just before CORI), which is itself the single most-played deck in the OCG this season. This site's sample list below is the pure Elfnote + Synchron shell rather than the full Kewl Tune hybrid, since the exact hybrid counts weren't retrievable from this environment." }
   ],
   "sampleDecklist": {
-    "label": "Established archetype with real post-Burst-Protocol ladder data, now updated with CORI's June Pride support — more mature than the brand-new CORI archetypes, but this specific 40 is still a community/ladder build, not a verified NAWCQ Top Cut list.",
+    "label": "Elfnote is real Tier 1 (106/1,084 tracked OCG Top-cut decks) with a confirmed tournament win: \"Kewl Tune Elfnote\" by ぽとふ, 1st place, 9th Midnight kinta CS, Tokyo, June 28 2026. This list is the core Elfnote + Synchron shell closed out by CORI's June Pride — it is not the exact Kewl Tune hybrid list from that win, which wasn't fully extractable from this environment.",
     "main": [
       { "name": "Elfnote Regina", "qty": 3 },
       { "name": "Elfnote Fortuna", "qty": 3 },
       { "name": "Elfnote Power Patron", "qty": 2 },
       { "name": "Medius the Pure", "qty": 2 },
       { "name": "Jet Synchron", "qty": 3 },
-      { "name": "Starjunk Synchron", "qty": 1 },
+      { "name": "Junk Synchron", "qty": 1 },
       { "name": "Accel Synchron", "qty": 1 },
       { "name": "Quick Launch", "qty": 3 },
       { "name": "Ash Blossom & Joyous Spring", "qty": 3 },
@@ -40,7 +41,7 @@
       { "name": "Solemn Strike", "qty": 2 }
     ],
     "extra": [
-      { "name": "Elfnote June Pride", "qty": 2 },
+      { "name": "Elfnote June Pride", "qty": 3 },
       { "name": "Baronne de Fleur", "qty": 1 },
       { "name": "I:P Masquerena", "qty": 1 },
       { "name": "Clear Wing Synchro Dragon", "qty": 1 },

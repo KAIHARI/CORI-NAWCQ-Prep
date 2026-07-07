@@ -26,15 +26,11 @@ const HomeView = {
         <div class="navgrid">
           <a class="navcard" href="#/archetypes" style="--accent: var(--red)">
             <div class="navcard__title">Archetype Guides</div>
-            <div class="navcard__desc">Blitzclique, Light and Darkness Ritual, Elfnote, Angelechy, Sacred Beasts — cards, combo lines, sample decklists.</div>
+            <div class="navcard__desc">Blitzclique, Light and Darkness Ritual, Elfnote, Angelechy, Sacred Beasts — card images, combo lines, sample decklists.</div>
           </a>
-          <a class="navcard" href="#/banlist">
-            <div class="navcard__title">Banlist Reference</div>
-            <div class="navcard__desc">Current TCG Forbidden &amp; Limited List — effective ${escapeHtml(event.banlistEffectiveDate)}.</div>
-          </a>
-          <a class="navcard" href="#/notes">
-            <div class="navcard__title">My Notes</div>
-            <div class="navcard__desc">Matchup notes and reminders, saved on this device — works fully offline.</div>
+          <a class="navcard" href="#/other-support">
+            <div class="navcard__title">Other Chaos Origins Support</div>
+            <div class="navcard__desc">Everything else the set touches — Phantom Knights, Invoked, Rank-Up-Magic, and more.</div>
           </a>
         </div>
       </section>

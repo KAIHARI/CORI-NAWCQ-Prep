@@ -277,35 +277,68 @@ details.combo p { font-size: 0.88rem; }
   font-weight: 700;
   margin-bottom: 0.8rem;
 }
-.decktable { width: 100%; border-collapse: collapse; margin-bottom: 1rem; }
-.decktable th {
-  text-align: left;
+.decktotal { font-weight: 700; font-size: 0.82rem; color: var(--muted); margin-top: 0.5rem; margin-bottom: 1rem; }
+
+/* ---------- Decklist card grid ---------- */
+.deckgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.55rem;
+  margin: 0.6rem 0;
+}
+.deckcard { margin: 0; }
+.deckcard__frame {
+  position: relative;
+  aspect-ratio: 59 / 86;
+  border: 2px solid var(--line);
+  overflow: hidden;
+  background: var(--panel);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deckcard__img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.deckcard__fallback {
+  display: none;
+  font-size: 0.64rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.35rem;
+  line-height: 1.2;
+}
+.deckcard--noart .deckcard__img { display: none; }
+.deckcard--noart .deckcard__fallback { display: block; }
+.deckcard__qty {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+  background: var(--ink);
+  color: var(--paper);
   font-size: 0.68rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  border-bottom: 2px solid var(--line);
-  padding: 0.3rem 0.4rem;
+  font-weight: 900;
+  padding: 0.1em 0.42em;
+  line-height: 1.3;
+}
+.deckcard__name {
+  margin: 0.25rem 0 0;
+  font-size: 0.64rem;
+  line-height: 1.2;
+  text-align: center;
   color: var(--muted);
 }
-.decktable td {
-  padding: 0.32rem 0.4rem;
-  border-bottom: 1px solid var(--line);
-  font-size: 0.88rem;
-}
-.decktable td.qty { font-weight: 900; text-align: right; width: 2.2rem; }
-.decktotal { font-weight: 700; font-size: 0.82rem; color: var(--muted); margin-top: -0.4rem; margin-bottom: 1rem; }
 
-/* ---------- Banlist ---------- */
-.banlist-group { margin-bottom: 1.2rem; }
-.banlist-group h3 { text-transform: uppercase; }
-.banlist-item {
+@media (min-width: 640px) {
+  .deckgrid { grid-template-columns: repeat(5, 1fr); }
+}
+
+/* ---------- Simple list rows (other-support) ---------- */
+.list-item {
   padding: 0.4rem 0;
   border-bottom: 1px solid var(--line);
   font-size: 0.9rem;
 }
 
-/* ---------- Notes / forms ---------- */
-textarea, input[type="text"] {
+input[type="text"] {
   width: 100%;
   font-family: var(--font);
   font-size: 0.9rem;
@@ -314,28 +347,6 @@ textarea, input[type="text"] {
   color: var(--ink);
   padding: 0.6rem 0.7rem;
 }
-textarea { min-height: 7rem; resize: vertical; }
-button {
-  font-family: var(--font);
-  font-weight: 700;
-  font-size: 0.8rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  border: 2px solid var(--line);
-  background: var(--ink);
-  color: var(--paper);
-  padding: 0.55rem 1rem;
-  cursor: pointer;
-}
-button.secondary { background: var(--paper); color: var(--ink); }
-.note-entry {
-  border: 2px solid var(--line);
-  padding: 0.7rem 0.8rem;
-  margin-bottom: 0.6rem;
-}
-.note-entry__meta { font-size: 0.7rem; color: var(--muted); font-weight: 700; letter-spacing: 0.04em; }
-.note-entry__body { margin-top: 0.3rem; font-size: 0.88rem; white-space: pre-wrap; }
-.note-form { margin-bottom: 1.2rem; display: flex; flex-direction: column; gap: 0.5rem; }
 
 /* ---------- Search ---------- */
 .searchbox { margin-bottom: 1rem; }

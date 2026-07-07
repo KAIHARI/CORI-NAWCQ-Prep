@@ -14,7 +14,7 @@ const OtherSupportView = {
       ${items
         .map(
           (item) => `
-          <div class="banlist-item">
+          <div class="list-item">
             <strong>${escapeHtml(item.archetype)}</strong> — ${escapeHtml(item.note)}
           </div>
         `

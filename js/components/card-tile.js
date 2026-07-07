@@ -1,7 +1,14 @@
 // Generic renderer for a single card object, shared by every archetype view.
-// Prefers a real image at assets/cards/<slug>.(jpg|png) if one has been dropped
-// in; falls back silently to the styled text tile when no image exists yet.
+// Prefers a real image at assets/cards/<slug>.png if one has been fetched;
+// falls back silently to the styled text tile when no image exists yet.
 const CardTile = {
+  slugify(name) {
+    return String(name)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  },
+
   render(card, accentColor) {
     const metaBits = [];
     if (card.cardType === "monster") {
@@ -22,7 +29,7 @@ const CardTile = {
     if (card.atk !== undefined && card.atk !== null) statsBits.push(`ATK <span>${card.atk}</span>`);
     if (card.def !== undefined && card.def !== null) statsBits.push(`DEF <span>${card.def}</span>`);
 
-    const imgSrc = card.slug ? `assets/cards/${card.slug}.jpg` : null;
+    const imgSrc = card.slug ? `assets/cards/${card.slug}.png` : null;
 
     return `
       <article class="cardtile" style="--accent:${accentColor || "var(--ink)"}">
@@ -34,6 +41,23 @@ const CardTile = {
         ${statsBits.length ? `<div class="cardtile__stats">${statsBits.join("&nbsp;&nbsp;&nbsp;")}</div>` : ""}
         <p class="cardtile__effect">${escapeHtml(card.effectText || "")}</p>
       </article>
+    `;
+  },
+
+  // Compact image tile for decklist grids — falls back to a text-only chip
+  // (name + qty) when no image has been fetched for this card yet.
+  renderDeckCard(name, qty) {
+    const slug = this.slugify(name);
+    const imgSrc = `assets/cards/${slug}.png`;
+    return `
+      <figure class="deckcard" data-name="${escapeHtml(name)}">
+        <div class="deckcard__frame">
+          <img class="deckcard__img" src="${imgSrc}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.closest('.deckcard').classList.add('deckcard--noart')" />
+          <span class="deckcard__fallback">${escapeHtml(name)}</span>
+          <span class="deckcard__qty">&times;${qty}</span>
+        </div>
+        <figcaption class="deckcard__name">${escapeHtml(name)}</figcaption>
+      </figure>
     `;
   },
 };
