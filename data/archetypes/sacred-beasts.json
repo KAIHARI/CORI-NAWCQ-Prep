@@ -1,0 +1,52 @@
+{
+  "id": "sacred-beasts",
+  "displayName": "Sacred Beasts",
+  "shorthand": null,
+  "accentColor": "#5B2A86",
+  "status": "returning",
+  "statusLabel": "Returning Archetype — GX-era, reworked in CORI",
+  "summary": "Uria, Hamon, and Raviel — the GX-era Sacred Beasts — return with new incarnations that can ONLY be Special Summoned via a 'Sacred Beast' card effect, dropping their old, brutally restrictive original summoning conditions. New support makes the trio far more consistent to assemble. Has the most concrete, dated sample decklist of any new CORI archetype so far.",
+  "cards": [
+    { "name": "Uria, Lord of Searing Flames", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": null, "level": 10, "atk": null, "def": null, "effectText": "Cannot be Special Summoned except by a 'Sacred Beast' card effect. Reveal this card in your hand to add a Sacred Beast Trap from your Deck to your hand. Gains ATK for every Trap card in either player's GY. Can destroy any Spell/Trap on the field.", "slug": "uria-lord-of-searing-flames" },
+    { "name": "Hamon, Lord of Striking Thunder", "cardType": "monster", "monsterType": "Effect", "attribute": "LIGHT", "race": "Thunder", "level": 10, "atk": 4000, "def": 4000, "effectText": "Cannot be Special Summoned except by a 'Sacred Beast' card effect. Reveal this card in your hand to add a Sacred Beast Spell from your Deck to your hand. Deals 1000 damage whenever any monster is sent to your opponent's GY.", "slug": "hamon-lord-of-striking-thunder" },
+    { "name": "Raviel, Lord of Phantasms", "cardType": "monster", "monsterType": "Effect", "attribute": "DARK", "race": "Fiend", "level": 10, "atk": 4000, "def": 4000, "effectText": "Cannot be Special Summoned except by a 'Sacred Beast' card effect. Reveal this card in your hand to add a Sacred Beast monster from your Deck to your hand.", "slug": "raviel-lord-of-phantasms" },
+    { "name": "The Orchestrator of the Sacred Beasts", "cardType": "monster", "monsterType": "Effect", "attribute": "LIGHT", "race": "Thunder", "level": 8, "atk": 2300, "def": 3000, "effectText": "The archetype's key enabler — can Special Summon a Sacred Beast monster from your hand, field, or GY, working around the trio's 'cannot be Special Summoned except by a Sacred Beast card effect' restriction.", "slug": "the-orchestrator-of-the-sacred-beasts" },
+    { "name": "Martyr of the Sacred Beasts", "cardType": "monster", "monsterType": "Effect", "attribute": "DARK", "race": "Fiend", "level": 1, "atk": 0, "def": 0, "effectText": "Low-cost support/fodder piece for the archetype's summoning chain.", "slug": "martyr-of-the-sacred-beasts" },
+    { "name": "Fallen Paradise of the Sacred Beasts", "cardType": "spell", "spellTrapSubtype": "Field", "effectText": "Send 3 cards to the GY to Special Summon a Sacred Beast from your hand, Deck, GY, or banishment, and grant it immunity to your opponent's activated Spell/Trap effects. While you control a Level 10 Sacred Beast, draw 2 cards per turn.", "slug": "fallen-paradise-of-the-sacred-beasts" },
+    { "name": "Unleashing the Sacred Beasts", "cardType": "spell", "spellTrapSubtype": "Normal", "effectText": "Add 3 differently-named Sacred Beast monsters from your Deck to your hand, then discard 2 cards.", "slug": "unleashing-the-sacred-beasts" }
+  ],
+  "comboLines": [
+    { "title": "Orchestrator into a Level 10 boss", "body": "Unleashing the Sacred Beasts loads your hand with all three bosses, then The Orchestrator of the Sacred Beasts or Fallen Paradise of the Sacred Beasts breaks the 'cannot Special Summon except by a Sacred Beast effect' restriction to actually put one on the field. Once a Level 10 Sacred Beast is out, Fallen Paradise's card-draw clause keeps refueling your hand." }
+  ],
+  "sampleDecklist": {
+    "label": "Community decklist dated this week (July 2026) — the most concrete, dated sample list of any new CORI archetype so far, built around 2x Uria / 3x Hamon / 3x Raviel. Still not an official tournament Top Cut list.",
+    "main": [
+      { "name": "Uria, Lord of Searing Flames", "qty": 2 },
+      { "name": "Hamon, Lord of Striking Thunder", "qty": 3 },
+      { "name": "Raviel, Lord of Phantasms", "qty": 3 },
+      { "name": "The Orchestrator of the Sacred Beasts", "qty": 3 },
+      { "name": "Martyr of the Sacred Beasts", "qty": 3 },
+      { "name": "Fallen Paradise of the Sacred Beasts", "qty": 1 },
+      { "name": "Unleashing the Sacred Beasts", "qty": 3 },
+      { "name": "Terraforming", "qty": 1 },
+      { "name": "Upstart Goblin", "qty": 1 },
+      { "name": "Pot of Prosperity", "qty": 1 },
+      { "name": "Pot of Desires", "qty": 2 },
+      { "name": "Ash Blossom & Joyous Spring", "qty": 3 },
+      { "name": "Nibiru, the Primal Being", "qty": 2 },
+      { "name": "Called by the Grave", "qty": 2 },
+      { "name": "Triple Tactics Talent", "qty": 1 },
+      { "name": "Infinite Impermanence", "qty": 2 },
+      { "name": "Solemn Judgment", "qty": 1 },
+      { "name": "Droll & Lock Bird", "qty": 2 },
+      { "name": "Effect Veiler", "qty": 2 },
+      { "name": "Forbidden Droplet", "qty": 2 }
+    ],
+    "extra": [
+      { "name": "Baronne de Fleur", "qty": 1 },
+      { "name": "I:P Masquerena", "qty": 1 },
+      { "name": "Underworld Goddess of the Closed World", "qty": 1 },
+      { "name": "Number 41: Bagooska the Terribly Tired Tapir", "qty": 1 }
+    ]
+  }
+}

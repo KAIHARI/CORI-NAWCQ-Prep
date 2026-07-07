@@ -1,0 +1,51 @@
+{
+  "id": "elfnote",
+  "displayName": "Elfnote",
+  "shorthand": null,
+  "accentColor": "#2E8B57",
+  "status": "supported",
+  "statusLabel": "Supported, Not New — debuted in Burst Protocol",
+  "summary": "Elfnote is NOT a Chaos Origins original — it debuted roughly 9 months earlier in Burst Protocol. CORI adds new support that completes the archetype's game plan. Level 6 Spellcaster monsters of varying Attributes plus Synchro Monsters, built around shuffling monsters through the Center Main Monster Zone and pairs well with a Synchron sub-engine.",
+  "cards": [
+    { "name": "Elfnote June Pride", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": null, "race": "Spellcaster", "level": null, "atk": null, "def": null, "effectText": "New in CORI. Can return itself to the Extra Deck during your Main Phase to Special Summon up to 1 Elfnote monster each from your hand, Deck, and GY (once per turn). Widely described as the card that 'completes' the archetype.", "slug": "elfnote-june-pride" },
+    { "name": "Elfnote Regina", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": 6, "atk": null, "def": null, "effectText": "Starter piece — can Special Summon itself under the right conditions and adds any Elfnote monster from the Deck to your hand.", "slug": "elfnote-regina" },
+    { "name": "Elfnote Fortuna", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": 6, "atk": null, "def": null, "effectText": "Places a card referred to as 'Rhapsodia of Madness,' can Special Summon itself from the GY, and can negate a face-up card on the field.", "slug": "elfnote-fortuna" },
+    { "name": "Elfnote Power Patron", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": null, "atk": null, "def": null, "effectText": "Raises Elfnote Regina's Level, which is what enables Elfnote June Pride's Synchro Summon.", "slug": "elfnote-power-patron" },
+    { "name": "Medius the Pure", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": null, "level": null, "atk": null, "def": null, "effectText": "Cross-archetype tutor target shared with Artmage and DoomZ — a card can Special Summon it from hand or Deck if you control an Artmage, DoomZ, or Elfnote card.", "slug": "medius-the-pure" }
+  ],
+  "comboLines": [
+    { "title": "Center Monster Zone shuffle into June Pride", "body": "Elfnote's signature play is cycling monsters through the Center Main Monster Zone to set up Synchro Summons. Use Elfnote Power Patron to raise Elfnote Regina's Level to the right number to Synchro Summon Elfnote June Pride, then bounce June Pride back to the Extra Deck on a later Main Phase to reload up to 3 more Elfnote monsters from hand, Deck, and GY." }
+  ],
+  "sampleDecklist": {
+    "label": "Established archetype with real post-Burst-Protocol ladder data, now updated with CORI's June Pride support — more mature than the brand-new CORI archetypes, but this specific 40 is still a community/ladder build, not a verified NAWCQ Top Cut list.",
+    "main": [
+      { "name": "Elfnote Regina", "qty": 3 },
+      { "name": "Elfnote Fortuna", "qty": 3 },
+      { "name": "Elfnote Power Patron", "qty": 2 },
+      { "name": "Medius the Pure", "qty": 2 },
+      { "name": "Jet Synchron", "qty": 3 },
+      { "name": "Starjunk Synchron", "qty": 1 },
+      { "name": "Accel Synchron", "qty": 1 },
+      { "name": "Quick Launch", "qty": 3 },
+      { "name": "Ash Blossom & Joyous Spring", "qty": 3 },
+      { "name": "Nibiru, the Primal Being", "qty": 2 },
+      { "name": "Called by the Grave", "qty": 2 },
+      { "name": "Pot of Prosperity", "qty": 1 },
+      { "name": "Pot of Desires", "qty": 2 },
+      { "name": "Triple Tactics Talent", "qty": 1 },
+      { "name": "Infinite Impermanence", "qty": 2 },
+      { "name": "Droll & Lock Bird", "qty": 2 },
+      { "name": "Effect Veiler", "qty": 3 },
+      { "name": "Forbidden Droplet", "qty": 2 },
+      { "name": "Solemn Strike", "qty": 2 }
+    ],
+    "extra": [
+      { "name": "Elfnote June Pride", "qty": 2 },
+      { "name": "Baronne de Fleur", "qty": 1 },
+      { "name": "I:P Masquerena", "qty": 1 },
+      { "name": "Clear Wing Synchro Dragon", "qty": 1 },
+      { "name": "Hi-Speedroid Kendama", "qty": 1 },
+      { "name": "Crystal Wing Synchro Dragon", "qty": 1 }
+    ]
+  }
+}

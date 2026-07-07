@@ -1,0 +1,53 @@
+{
+  "id": "angelechy",
+  "displayName": "Angelechy",
+  "shorthand": "The Chess Archetype",
+  "accentColor": "#1B4FCC",
+  "status": "premiere",
+  "statusLabel": "World Premiere — CORI",
+  "summary": "A World Premiere archetype: LIGHT Fairy Synchro Monsters with ZERO Main Deck monsters at all. Built around a floating chessboard Field Spell that shuttles chess-piece monsters between the Extra Deck, Monster Zones, and Spell & Trap Zone — parked there as Continuous Spells that gain static effects, mirroring a chessboard's back rank. Note: 'Angelechy' and 'the chess archetype' are the same thing, not two separate archetypes.",
+  "cards": [
+    { "name": "Angelechy Problem", "cardType": "spell", "spellTrapSubtype": "Field", "effectText": "Discard a Spell/Trap to Special Summon a Level 2 Angelechy monster from the Extra Deck, and place another Angelechy monster from the Extra Deck into the Spell & Trap Zone as a Continuous Spell, once per turn. The archetype's central engine piece.", "slug": "angelechy-problem" },
+    { "name": "Angelechy Shatranga", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 10, "atk": 3000, "def": 0, "effectText": "The 'King' piece. As a monster: banish 1 opponent's monster. As a Continuous Spell (parked in the Spell & Trap Zone): caps your opponent to 5 monster-effect activations per turn.", "slug": "angelechy-shatranga" },
+    { "name": "Angelechy Bastion", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 8, "atk": 3000, "def": 2500, "effectText": "The 'Rook' piece. As a monster: banish 1 card in its own column. As a Continuous Spell: protects all Angelechy cards you control from opponent's destruction, and can place Angelechy Shatranga from the Extra Deck into the Spell & Trap Zone.", "slug": "angelechy-bastion" },
+    { "name": "Angelechy Destrier", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 7, "atk": 2500, "def": 2000, "effectText": "The 'Knight' piece. As a monster: banish 1 monster in another column. As a Continuous Spell: inflicts 500 damage whenever your opponent activates a card or effect, and can add an Angelechy Spell from your Deck to your hand.", "slug": "angelechy-destrier" },
+    { "name": "Angelechy Enlisted", "cardType": "monster", "monsterType": "Synchro/Tuner/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 2, "atk": 1500, "def": 1500, "effectText": "The 'Pawn' piece. As a monster: banish 1 opponent's monster in an adjacent column. On a successful capture, 'promotes' into another Angelechy monster.", "slug": "angelechy-enlisted" },
+    { "name": "Angelechy Disturbance", "cardType": "trap", "spellTrapSubtype": "Normal", "effectText": "Give your opponent control of an Angelechy monster, then negate face-up cards in adjacent zones. Banish this card from your GY to add an Angelechy Spell/Trap from your Deck to your hand.", "slug": "angelechy-disturbance" }
+  ],
+  "comboLines": [
+    { "title": "Chessboard back-rank setup", "body": "Angelechy Problem discards a Spell/Trap to Special Summon Angelechy Enlisted (Pawn) from the Extra Deck while parking a second Angelechy piece in the Spell & Trap Zone as a Continuous Spell. From there, Bastion protects the board and can place Shatranga; Destrier chips away with 500-damage triggers off every opponent activation. This is a community-theorized skeleton — the archetype is brand new, so treat exact sequencing as a starting point, not a solved line." }
+  ],
+  "sampleDecklist": {
+    "label": "Early theorycraft build — Angelechy is a World Premiere archetype only days old, so this is community/ladder content, not a tournament-proven list. Some builds pair this shell with a Synchron sub-engine instead of the pure Spell/Trap shell shown here.",
+    "main": [
+      { "name": "Angelechy Problem", "qty": 3 },
+      { "name": "Angelechy Disturbance", "qty": 2 },
+      { "name": "Ash Blossom & Joyous Spring", "qty": 3 },
+      { "name": "Nibiru, the Primal Being", "qty": 2 },
+      { "name": "Called by the Grave", "qty": 2 },
+      { "name": "Terraforming", "qty": 1 },
+      { "name": "Pot of Prosperity", "qty": 1 },
+      { "name": "Pot of Desires", "qty": 2 },
+      { "name": "Triple Tactics Talent", "qty": 1 },
+      { "name": "Infinite Impermanence", "qty": 2 },
+      { "name": "Solemn Judgment", "qty": 1 },
+      { "name": "Solemn Strike", "qty": 2 },
+      { "name": "Droll & Lock Bird", "qty": 2 },
+      { "name": "Effect Veiler", "qty": 3 },
+      { "name": "Forbidden Droplet", "qty": 2 },
+      { "name": "Dark Ruler No More", "qty": 1 },
+      { "name": "Cosmic Cyclone", "qty": 2 },
+      { "name": "Twin Twisters", "qty": 2 },
+      { "name": "Anti-Spell Fragrance", "qty": 1 },
+      { "name": "Fragrance Storm", "qty": 1 },
+      { "name": "Time Seal", "qty": 2 },
+      { "name": "Metaverse", "qty": 2 }
+    ],
+    "extra": [
+      { "name": "Angelechy Shatranga", "qty": 2 },
+      { "name": "Angelechy Bastion", "qty": 2 },
+      { "name": "Angelechy Destrier", "qty": 2 },
+      { "name": "Angelechy Enlisted", "qty": 2 }
+    ]
+  }
+}

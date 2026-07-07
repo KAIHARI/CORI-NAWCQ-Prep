@@ -1,0 +1,55 @@
+{
+  "id": "blitzclique",
+  "displayName": "Blitzclique",
+  "shorthand": null,
+  "accentColor": "#F5C400",
+  "status": "new",
+  "statusLabel": "New Archetype — CORI",
+  "summary": "EARTH Thunder 'scavengers.' Members activate straight from your hand to destroy a card, then swarm the board and loot the wreckage for more resources. Aggressive, hand-trap-resistant, and built to punish opponents who activate monster effects into it.",
+  "cards": [
+    { "name": "Wisca Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": 8, "atk": 3000, "def": 2400, "effectText": "If a card was destroyed by a “Blitzclique” effect this turn: reveal this card in your hand to Special Summon up to 3 Thunder monsters from your hand, then destroy that many cards on the field. Also, bounce a Thunder monster you control to negate and destroy an opponent's activated monster effect.", "slug": "wisca-blitzclique" },
+    { "name": "Surge Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": 4, "atk": 1800, "def": 1200, "effectText": "Reveal this card in your hand to target and destroy 1 card, then Special Summon 1 Thunder monster from your hand. On the field: when a card is destroyed by a card effect, add a “Blitzclique” monster from your Deck to your hand.", "slug": "surge-blitzclique" },
+    { "name": "Grain Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": null, "atk": null, "def": null, "effectText": "Additional Blitzclique monster revealed in early CORI previews. Exact effect text unconfirmed — check the latest spoiler before building around it.", "slug": "grain-blitzclique" },
+    { "name": "Whisker Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": null, "atk": null, "def": null, "effectText": "Additional Blitzclique monster revealed in early CORI previews. Exact effect text unconfirmed — check the latest spoiler before building around it.", "slug": "whisker-blitzclique" },
+    { "name": "Crack Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": null, "atk": null, "def": null, "effectText": "Additional Blitzclique monster revealed in early CORI previews. Exact effect text unconfirmed — check the latest spoiler before building around it.", "slug": "crack-blitzclique" },
+    { "name": "Blitzclique – Breakaway", "cardType": "spell", "spellTrapSubtype": "Quick-Play", "effectText": "Place 1 “Blitzclique” Continuous Trap from your Deck face-up in your Spell & Trap Zone, or bounce 1 Thunder monster you control to destroy 1 card. Recurs itself from the GY.", "slug": "blitzclique-breakaway" },
+    { "name": "Blitzclique – Stepped Leader", "cardType": "spell", "spellTrapSubtype": "Continuous", "effectText": "Add a Thunder monster from your GY to your hand off a destruction trigger. Can Special Summon a Thunder monster from your hand, then destroys itself.", "slug": "blitzclique-stepped-leader" },
+    { "name": "Blitzclique – Return Stroke", "cardType": "trap", "spellTrapSubtype": "Continuous", "effectText": "Protects your Blitzclique monsters from opponent's card effects that would destroy them. Bounce a Blitzclique monster you control to negate and destroy an opponent's Spell activation. Banish this card from your GY to return a Blitzclique monster from GY to hand.", "slug": "blitzclique-return-stroke" },
+    { "name": "Blitzclique – Alternator", "cardType": "trap", "spellTrapSubtype": "Continuous", "effectText": "Your opponent's monsters lose 300 ATK/DEF for each Thunder monster you control. Shuffle a Blitzclique card you control back into the Deck to add a differently-named Thunder monster from your Deck to your hand.", "slug": "blitzclique-alternator" }
+  ],
+  "comboLines": [
+    { "title": "Turn 1 Breakaway loot loop (theorized starting point)", "body": "Open Blitzclique – Breakaway to place Return Stroke face-up from the Deck. Reveal Surge Blitzclique from hand to destroy a card and Special Summon a Thunder monster, triggering Stepped Leader's GY recursion. Chain into Wisca Blitzclique once a Blitzclique effect has destroyed a card this turn to swarm 3 more Thunder monsters from hand. This is a community-theorized line, not a confirmed tournament combo — the set is only days old." }
+  ],
+  "sampleDecklist": {
+    "label": "Early theorycraft build assembled from CORI card previews — not a tournament-proven list. Treat as a starting point, not a final NAWCQ list.",
+    "main": [
+      { "name": "Wisca Blitzclique", "qty": 3 },
+      { "name": "Surge Blitzclique", "qty": 3 },
+      { "name": "Grain Blitzclique", "qty": 2 },
+      { "name": "Whisker Blitzclique", "qty": 2 },
+      { "name": "Crack Blitzclique", "qty": 2 },
+      { "name": "Blitzclique – Stepped Leader", "qty": 3 },
+      { "name": "Ash Blossom & Joyous Spring", "qty": 3 },
+      { "name": "Nibiru, the Primal Being", "qty": 2 },
+      { "name": "Called by the Grave", "qty": 2 },
+      { "name": "Pot of Prosperity", "qty": 1 },
+      { "name": "Pot of Extravagance", "qty": 1 },
+      { "name": "Triple Tactics Talent", "qty": 1 },
+      { "name": "Forbidden Droplet", "qty": 2 },
+      { "name": "Blitzclique – Breakaway", "qty": 3 },
+      { "name": "Blitzclique – Return Stroke", "qty": 2 },
+      { "name": "Blitzclique – Alternator", "qty": 2 },
+      { "name": "Infinite Impermanence", "qty": 2 },
+      { "name": "Effect Veiler", "qty": 2 },
+      { "name": "Droll & Lock Bird", "qty": 2 }
+    ],
+    "extra": [
+      { "name": "Coral Dragon", "qty": 1 },
+      { "name": "Underworld Goddess of the Closed World", "qty": 1 },
+      { "name": "Baronne de Fleur", "qty": 1 },
+      { "name": "I:P Masquerena", "qty": 1 },
+      { "name": "Divine Arsenal AA-ZEUS – Sky Thunder", "qty": 1 },
+      { "name": "Number 41: Bagooska the Terribly Tired Tapir", "qty": 1 }
+    ]
+  }
+}

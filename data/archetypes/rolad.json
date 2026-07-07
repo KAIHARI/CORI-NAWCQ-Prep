@@ -1,0 +1,54 @@
+{
+  "id": "rolad",
+  "displayName": "Light and Darkness Ritual",
+  "shorthand": "RoLaD",
+  "accentColor": "#B3122E",
+  "status": "new",
+  "statusLabel": "New Archetype — CORI",
+  "summary": "The reimagining of Dark Yugi's Duelist Kingdom deck: Black Luster Soldier and Magician of Black Chaos return as a dual-purpose Ritual series. One Ritual Spell summons either boss monster and keeps recurring itself, while Mind Shuffle loops resources between the two. Grindy control/midrange with the most developed combo lines of any new CORI archetype so far.",
+  "cards": [
+    { "name": "Ritual of Light and Darkness", "cardType": "spell", "spellTrapSubtype": "Ritual", "effectText": "Ritual Summons “Magician of Dark Chaos – Black Chaos” or “Black Luster Soldier – Soldier of Light and Darkness” by tributing monsters and/or banishing from your GY to meet the Ritual Summon's Level requirement. Once per turn, add this card plus 1 card that mentions it from your GY to your hand.", "slug": "ritual-of-light-and-darkness" },
+    { "name": "Black Luster Soldier – Soldier of Light and Darkness", "cardType": "monster", "monsterType": "Ritual/Effect", "attribute": "EARTH", "race": "Warrior", "level": 8, "atk": 3000, "def": 2500, "effectText": "Must first be Ritual Summoned. Cannot be destroyed by battle. Unaffected by your opponent's activated effects unless they target this card. If this card destroys a monster by battle: it gains 1500 ATK and can make a second attack in the same Battle Phase.", "slug": "black-luster-soldier-soldier-of-light-and-darkness" },
+    { "name": "Magician of Dark Chaos – Black Chaos", "cardType": "monster", "monsterType": "Ritual/Effect", "attribute": "DARK", "race": "Spellcaster", "level": 8, "atk": 2800, "def": 2600, "effectText": "Cannot be Normal Summoned/Set, and cannot be Ritual Summoned except as noted. Can be Special Summoned by shuffling 1 Spellcaster or Warrior Ritual Monster from your hand or GY into the Deck. Protects your Spells/Traps and can banish cards your opponent controls.", "slug": "magician-of-dark-chaos-black-chaos" },
+    { "name": "Skull Archfiend of Chaos", "cardType": "monster", "monsterType": "Effect", "attribute": "DARK", "race": "Fiend", "level": 6, "atk": 2650, "def": 2450, "effectText": "When this card is sent to the GY: send “Ritual of Light and Darkness” from your Deck to the GY, then add a Ritual Monster it can Ritual Summon from your Deck to your hand.", "slug": "skull-archfiend-of-chaos" },
+    { "name": "Mind Shuffle", "cardType": "spell", "spellTrapSubtype": "Normal", "effectText": "Core resource-loop card of the archetype — shuffles/recycles Ritual pieces between hand, Deck, and GY to keep swapping between the deck's two Ritual boss monsters. Exact wording still being confirmed from early previews.", "slug": "mind-shuffle" },
+    { "name": "Griffoh", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": null, "level": null, "atk": null, "def": null, "effectText": "Lets you use “Mind Shuffle” the same turn it's Set, enabling the deck's core loop a turn earlier. Exact stats/wording still being confirmed from early previews.", "slug": "griffoh" }
+  ],
+  "comboLines": [
+    { "title": "Mind Shuffle grind loop", "body": "Send Skull Archfiend of Chaos to the GY to send Ritual of Light and Darkness to the GY and tutor a Ritual Monster, then use Mind Shuffle to recur pieces and Ritual Summon. Set Griffoh to enable Mind Shuffle the same turn. Swap between Black Luster Soldier – Soldier of Light and Darkness (offense, battle-destruction snowball) and Magician of Dark Chaos – Black Chaos (protection/banish) depending on board state. Documented in early OCG/community coverage as the deck's core engine, though exact card wording is still being confirmed." }
+  ],
+  "sampleDecklist": {
+    "label": "Community-documented list with a real combo engine (Mind Shuffle loop) — more developed than most other new CORI archetypes, but still not a tournament Top Cut list.",
+    "main": [
+      { "name": "Black Luster Soldier – Soldier of Light and Darkness", "qty": 1 },
+      { "name": "Magician of Dark Chaos – Black Chaos", "qty": 1 },
+      { "name": "Skull Archfiend of Chaos", "qty": 3 },
+      { "name": "Griffoh", "qty": 3 },
+      { "name": "Ritual of Light and Darkness", "qty": 3 },
+      { "name": "Mind Shuffle", "qty": 3 },
+      { "name": "Preparation of Rites", "qty": 2 },
+      { "name": "Terraforming", "qty": 1 },
+      { "name": "Foolish Burial", "qty": 1 },
+      { "name": "Upstart Goblin", "qty": 1 },
+      { "name": "Pot of Prosperity", "qty": 1 },
+      { "name": "Pot of Desires", "qty": 2 },
+      { "name": "Ash Blossom & Joyous Spring", "qty": 3 },
+      { "name": "Nibiru, the Primal Being", "qty": 2 },
+      { "name": "Called by the Grave", "qty": 2 },
+      { "name": "Infinite Impermanence", "qty": 2 },
+      { "name": "Dark Ruler No More", "qty": 1 },
+      { "name": "Solemn Judgment", "qty": 1 },
+      { "name": "Droll & Lock Bird", "qty": 2 },
+      { "name": "Effect Veiler", "qty": 2 },
+      { "name": "Triple Tactics Talent", "qty": 1 },
+      { "name": "Forbidden Droplet", "qty": 2 }
+    ],
+    "extra": [
+      { "name": "Baronne de Fleur", "qty": 1 },
+      { "name": "I:P Masquerena", "qty": 1 },
+      { "name": "Underworld Goddess of the Closed World", "qty": 1 },
+      { "name": "Accesscode Talker", "qty": 1 },
+      { "name": "Knightmare Unicorn", "qty": 1 }
+    ]
+  }
+}
