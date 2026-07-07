@@ -55,9 +55,13 @@ integration step.
 ## Deployment
 
 This repo deploys via `.github/workflows/deploy.yml` (GitHub Actions,
-`actions/deploy-pages`) whenever `main` is updated. One-time setup after
-merging: in the repo's **Settings → Pages**, set **Source = "GitHub
-Actions"**.
+`actions/deploy-pages`) whenever `main` is updated. One-time setup: in the
+repo's **Settings → Pages**, set **Source = "GitHub Actions"**. GitHub Pages
+on the free tier requires a public repository.
 
-If the repo is ever renamed, update `start_url`/`scope` in `manifest.json` to
-match the new path.
+Served at the custom domain **labrynth.info** (see the `CNAME` file at the
+repo root — required so the domain sticks across Actions-based deploys) with
+DNS managed at Cloudflare. `manifest.json`'s `start_url`/`scope` are set to
+`/` accordingly, since a custom domain serves from the root rather than a
+`/<repo-name>/` subpath. If the custom domain is ever removed, restore the
+`/CORI-NAWCQ-Prep/` subpath in `manifest.json` and delete the `CNAME` file.
