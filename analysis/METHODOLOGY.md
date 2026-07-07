@@ -17,6 +17,7 @@ Run this **one archetype per session/reply**. The copy-paste prompt is at the bo
 3. **Show the reasoning, not just the verdict.** Every ranking must trace back to a specific effect clause and a specific point in the sequence — cite the clause.
 4. **Flag uncertainty.** Several early-CORI entries have stats/wording marked unconfirmed, or a `sampleDecklist.label` that says "theorycraft." Say so explicitly, and mark any conclusion built on that card as provisional.
 5. **Describe interaction functionally, not by card name.** We don't know what the user will actually be holding in a given game. Describe the answer by *category and timing window* ("a hand trap that stops a card from being Special Summoned, used in response to the Special Summon before it resolves") rather than naming a specific meta staple — unless the same named staple already appears in the archetype's own `sampleDecklist`, in which case it's fair to name it since it's part of this exact package.
+6. **`analysis/meta-staples.json` is a documented exception to rule 2.** It's pre-verified reference data — its definitions were sourced via live web lookup at authoring time (noted in its own `sourceNote` field), not derived from this archetype's JSON. Reading and using it for Phase 6 does not violate the no-outside-lookups rule, which exists specifically to keep the archetype's *own* gameplan analysis (Phases 1–5) free of outside research and recalled meta. Do not add new lookups beyond what's already in that file — if a 13th card needs adding later, that's a separate, explicit request.
 
 ---
 
@@ -99,6 +100,19 @@ Save the completed analysis to `analysis/<archetype-id>-interaction-breakdown.md
 
 ---
 
+## Phase 6 — Popular Non-Engine Card Rating
+
+A fixed, cross-archetype watchlist lives in `analysis/meta-staples.json` — 12 popular real-world non-engine cards (hand traps and generic Trap/Spell answers) with verified definitions. Read every entry's `effectText` in full, then rate **each of the 12, one line per card**, against the archetype just analyzed in Phases 1–5.
+
+For each card:
+- Trace its effect to the *specific* archetype card/step it would hit (cite the clause from Phase 1/2, not a vague "stops their combo").
+- Reuse the S/A/B/C tier scale from Phase 5, plus a **Dead** tier for a card that has nothing to interact with in this deck (e.g., a Special-Summon-negate against a deck whose whole line runs through Ritual/Normal Summons instead).
+- Note the timing window it must be used in (tie back to the Phase 3 chokepoint map where the card's category matches an identified window) and any attribute-lock or hand-activation condition that limits when it's live (several of the 12 only work "if you control no cards" or lock out activating certain Attributes for the rest of the duel if hand-activated — call out when that condition collides with this archetype's own colors, e.g. a LIGHT/EARTH/WIND-locking card used against a deck whose own follow-up plays need those attributes).
+
+**Output:** one row per card — `Card | Tier (S/A/B/C/Dead) | What it hits + when | Condition/lock that limits it` — appended to the same `analysis/<archetype-id>-interaction-breakdown.md` file, plus a one-line summary in chat: which of the 12 is the single best generic answer to this specific archetype, and which are dead draws against it.
+
+---
+
 ## The copy-paste prompt (reusable, one archetype per run)
 
 ```
@@ -108,14 +122,17 @@ Run the Archetype Interaction Methodology (analysis/METHODOLOGY.md in this repo)
 
 Read data/archetypes/<that archetype's id>.json in full — every card's effectText, all comboLines, and the sampleDecklist (main + extra). Do not use WebSearch, WebFetch, or any outside source; do not recall this archetype's real-world meta, tier placement, or known decklists from training — work only from the JSON file's text, data/banlist.json, data/event.json, and general Yu-Gi-Oh! rules-engine logic. For generic staples that appear only in sampleDecklist (no effectText in cards[]), classify them by broad functional category only per Phase 1a — don't invent specific text for them.
 
-Follow all 5 phases exactly as defined in analysis/METHODOLOGY.md:
+Also read analysis/meta-staples.json in full — this is pre-verified reference data (not an outside lookup by you; see Ground Rule 6) covering 12 popular non-engine cards.
+
+Follow all 6 phases exactly as defined in analysis/METHODOLOGY.md:
 1. Card inventory & classification (incl. Phase 1a engine-vs-generic split)
 2. Reconstruct the whole gameplan (sequence, hard/soft dependencies, keystone cards, card pairs)
 3. Chokepoint & timing map (micro-sequencing + macro preemptive/reactive timing, ranked by leverage and trade efficiency)
 4. Weakness audit (structural, sequencing, redundancy)
 5. Ranked interaction breakdown (table + one-piece verdict + two-piece sequencing note + "don't bother" list)
+6. Popular non-engine card rating (one line per card from analysis/meta-staples.json, tiered S/A/B/C/Dead, tied to a specific step and timing window)
 
-Save the result to analysis/<that archetype's id>-interaction-breakdown.md, then give me the Phase 5 verdict directly in your reply.
+Save the result to analysis/<that archetype's id>-interaction-breakdown.md, then give me the Phase 5 verdict and the Phase 6 summary line directly in your reply.
 ```
 
 Just edit the one line — `Archetype: rolad` — to any of: `blitzclique`, `rolad`, `elfnote`, `angelechy`, `sacred-beasts`. Everything else in the prompt derives from that single name.

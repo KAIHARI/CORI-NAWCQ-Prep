@@ -1,0 +1,119 @@
+{
+  "sourceNote": "Unlike the archetype JSON files under data/archetypes/, the effectText in this file was compiled via live web lookup (cross-checked across multiple sources: Yugipedia summaries, YGOPRODeck, and card-of-the-day writeups) rather than hand-typed from set-preview research, and several of these cards postdate the assistant's training cutoff (Jan 2026). Verify exact official wording against Konami's card database before relying on it for a ruling. Using this file in the methodology is NOT a violation of the 'no outside lookups' ground rule, which applies only to analyzing the archetype's own cards.",
+  "cards": [
+    {
+      "name": "Ash Blossom & Joyous Spring",
+      "cardType": "monster",
+      "monsterType": "Effect",
+      "attribute": "FIRE",
+      "race": "Zombie",
+      "level": 3,
+      "atk": 0,
+      "def": 1800,
+      "category": "Hand Trap (Effect/Search-Negate)",
+      "effectText": "If a card or effect is activated that includes any of these effects (Quick Effect): You can discard this card; negate that effect. ● Add a card from the Deck to the hand. ● Special Summon a monster from the Deck. ● Send a card from the Deck to the GY. ● Draw a card, except during the Draw Phase. You can only use 1 \"Ash Blossom & Joyous Spring\" once per turn."
+    },
+    {
+      "name": "Infinite Impermanence",
+      "cardType": "trap",
+      "spellTrapSubtype": "Normal",
+      "category": "Generic Removal/Banish (Hand-Activatable Trap)",
+      "effectText": "Target 1 face-up monster your opponent controls; negate its effects until the end of this turn, then if this card was Set before activation and is on the field at resolution, for the rest of this turn all other Spell/Trap effects in that column are negated. If you control no cards, you can activate this card from your hand."
+    },
+    {
+      "name": "Ghost Ogre & Snow Rabbit",
+      "cardType": "monster",
+      "monsterType": "Tuner/Effect",
+      "attribute": "LIGHT",
+      "race": "Psychic",
+      "level": 3,
+      "atk": 0,
+      "def": 1800,
+      "category": "Hand Trap (Effect/Search-Negate)",
+      "effectText": "When a monster on the field activates its effect, or when a Spell/Trap that is already face-up on the field activates its effect (Quick Effect): You can send this card from your hand or field to the GY; destroy that card on the field. You can only use this effect of \"Ghost Ogre & Snow Rabbit\" once per turn."
+    },
+    {
+      "name": "Bystial Magnamhut",
+      "cardType": "monster",
+      "monsterType": "Effect",
+      "attribute": "DARK",
+      "race": "Dragon",
+      "level": 6,
+      "atk": 2500,
+      "def": 2000,
+      "category": "GY-Hate/Beater",
+      "effectText": "You can target 1 LIGHT or DARK monster in either GY; banish it, and if you do, Special Summon this card from your hand. This is a Quick Effect if your opponent controls a monster. If this card is Special Summoned: You can activate this effect; during the End Phase of this turn, add 1 Dragon monster from your Deck or GY to your hand, except \"Bystial Magnamhut\". You can only use each effect of \"Bystial Magnamhut\" once per turn."
+    },
+    {
+      "name": "Mulcharmy Fuwalos",
+      "cardType": "monster",
+      "monsterType": "Effect",
+      "attribute": "WIND",
+      "race": "Winged Beast",
+      "level": 4,
+      "atk": 100,
+      "def": 600,
+      "category": "Hand Trap (Punish-Draw)",
+      "effectText": "If you control no cards (Quick Effect): You can discard this card; apply this effect. Each time your opponent Special Summons a monster(s) from the Deck and/or Extra Deck, immediately draw 1 card, until the end of this turn. Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6. You can only activate 1 other \"Mulcharmy\" monster's effect the turn you activate this effect."
+    },
+    {
+      "name": "Mulcharmy Purulia",
+      "cardType": "monster",
+      "monsterType": "Effect",
+      "attribute": "WATER",
+      "race": "Aqua",
+      "level": 4,
+      "atk": 100,
+      "def": 600,
+      "category": "Hand Trap (Punish-Draw)",
+      "effectText": "If you control no cards (Quick Effect): You can discard this card; apply this effect. Each time your opponent Normal or Special Summons a monster(s) from the hand, immediately draw 1 card, until the end of this turn. Once, during this End Phase, if the number of cards in your hand is more than the number of cards your opponent controls +6, you must randomly shuffle cards from your hand into the Deck so the number in your hand equals the number your opponent controls +6. You can only activate 1 other \"Mulcharmy\" monster's effect the turn you activate this effect."
+    },
+    {
+      "name": "Dominus Impulse",
+      "cardType": "trap",
+      "spellTrapSubtype": "Normal",
+      "category": "Hand Trap (Summon-Negate)",
+      "effectText": "If your opponent controls a card, you can activate this card from your hand. When a card or effect is activated that includes an effect that Special Summons a monster(s): Negate that effect, then if you have a Trap in your GY, destroy that card. If you activated this card from your hand, you cannot activate the effects of LIGHT, EARTH, and WIND monsters for the rest of this Duel. You can only activate 1 \"Dominus Impulse\" per turn."
+    },
+    {
+      "name": "Dominus Purge",
+      "cardType": "trap",
+      "spellTrapSubtype": "Normal",
+      "category": "Hand Trap (Effect/Search-Negate)",
+      "effectText": "If your opponent controls a card, you can activate this card from your hand. When a card or effect is activated that includes an effect that adds a card(s) from the Deck to the hand: Negate that effect, then if you have a Trap in your GY, destroy that card. If you activated this card from your hand, you cannot activate the effects of DARK, WATER, and FIRE monsters for the rest of this Duel. You can only activate 1 \"Dominus Purge\" per turn."
+    },
+    {
+      "name": "Dominus Spark",
+      "cardType": "trap",
+      "spellTrapSubtype": "Normal",
+      "category": "Generic Removal/Banish (Hand-Activatable Trap)",
+      "effectText": "During the turn your opponent activated a monster effect in the hand or GY, you can activate this card from your hand. Target 1 monster your opponent controls; banish it, then if you have no Traps in your GY, your opponent can Special Summon 1 monster from their hand. If you activated this card from your hand, you cannot activate the effects of EARTH, WATER, FIRE, and WIND monsters for the rest of this Duel. You can only activate 1 \"Dominus Spark\" per turn."
+    },
+    {
+      "name": "Songs of the Dominators",
+      "cardType": "trap",
+      "spellTrapSubtype": "Normal",
+      "category": "Hand Trap (Effect/Search-Negate)",
+      "effectText": "If you have no monsters in your GY, you can activate this card from your hand. When your opponent activates a monster effect on the field: Negate that effect, then if you have a Trap in your GY, you can add 1 \"Dominus\" card from your Deck to your hand. If you activated this card from your hand, you cannot activate the effects of monsters in your hand, GY, and banishment, until the end of the next turn. You can only activate 1 \"Songs of the Dominators\" per turn."
+    },
+    {
+      "name": "The Fallen & The Virtuous",
+      "cardType": "spell",
+      "spellTrapSubtype": "Quick-Play",
+      "category": "Generic Extra Deck Support/Removal",
+      "effectText": "This card is always treated as a \"Branded\" and \"Dogmatika\" card. You can only activate 1 of these effects per turn. ● Send 1 monster that mentions \"Fallen of Albaz\" from your Extra Deck to the GY, then target 1 face-up card on the field; destroy it. ● If you have an \"Ecclesia\" monster in your field or GY: Target 1 monster in either GY; Special Summon it to your field."
+    },
+    {
+      "name": "Fydraulis Harmonia",
+      "cardType": "monster",
+      "monsterType": "Tuner/Effect",
+      "attribute": "DARK",
+      "race": "Dragon",
+      "level": 7,
+      "atk": 2500,
+      "def": 2000,
+      "category": "Hand Trap (Effect/Search-Negate)",
+      "effectText": "When a monster your opponent controls activates its effect (Quick Effect): You can reveal this card in your hand and up to 5 Synchro Monsters in your Extra Deck; apply all of these effects in sequence based on the number revealed, also you cannot activate the effects of monsters Special Summoned from the Extra Deck until the end of your next turn after this effect resolves, except Synchro Monsters. ● 2+: Special Summon this card. ● 4+: Send 1 revealed Synchro Monster to the GY. ● 6: Destroy 1 monster your opponent controls. You can only use this effect of \"Fydraulis Harmonia\" once per turn."
+    }
+  ]
+}
