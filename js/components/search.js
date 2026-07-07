@@ -46,8 +46,8 @@ const Search = {
         results.innerHTML = `<p class="empty-state">No cards match “${escapeHtml(input.value)}.”</p>`;
         return;
       }
-      results.innerHTML = matches
-        .slice(0, 30)
+      const shown = matches.slice(0, 30);
+      results.innerHTML = shown
         .map(
           (m) => `
             <a class="searchresult" href="#/archetype/${m.archetypeId}">
@@ -56,7 +56,10 @@ const Search = {
             </a>
           `
         )
-        .join("");
+        .join("") +
+        (matches.length > shown.length
+          ? `<p class="empty-state">Showing ${shown.length} of ${matches.length} matches — keep typing to narrow down.</p>`
+          : "");
     });
   },
 };

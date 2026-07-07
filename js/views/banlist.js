@@ -21,10 +21,9 @@ const BanlistView = {
 
       <hr class="rule" />
 
-      ${group("Limited", bl.limited)}
-      ${group("Semi-Limited", bl.semiLimited)}
-      ${group("Reduced Copy Count", bl.reduced)}
-      ${group("Unbanned", bl.unbanned)}
+      ${group("Newly Forbidden", bl.forbidden)}
+      ${group("Newly Limited", bl.limited)}
+      ${group("Newly Semi-Limited", bl.semiLimited)}
 
       <hr class="rule" />
       <p class="empty-state">${escapeHtml(bl.otherFormatsNote)}</p>

@@ -64,6 +64,7 @@ const NotesView = {
     listEl.addEventListener("click", (e) => {
       const btn = e.target.closest("[data-delete]");
       if (!btn) return;
+      if (!window.confirm("Delete this note? This can't be undone.")) return;
       const id = btn.dataset.delete;
       const remaining = Storage.get("notes", []).filter((n) => n.id !== id);
       Storage.set("notes", remaining);

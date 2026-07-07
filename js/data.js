@@ -6,7 +6,17 @@ const DataStore = {
 
   _load(path) {
     if (!this._cache[path]) {
-      this._cache[path] = fetch(path).then((res) => res.json());
+      this._cache[path] = fetch(path)
+        .then((res) => {
+          if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
+          return res.json();
+        })
+        .catch((err) => {
+          // Don't cache failures — a transient offline fetch shouldn't poison
+          // the loader for the rest of the session.
+          delete this._cache[path];
+          throw err;
+        });
     }
     return this._cache[path];
   },

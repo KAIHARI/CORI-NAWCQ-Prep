@@ -21,17 +21,16 @@ start — all cached for offline use on the convention floor.
 
 ## Content accuracy note
 
-Chaos Origins released July 2, 2026 — 5 days before this site was built. Real
-scanned card images and a live, verified card database for the new cards
-weren't reachable from the environment this was built in (see
-`scripts/fetch-card-art.md` for why, and how to add real art later). Card
-text, stats, and sample decklists in `data/archetypes/*.json` were hand-
-compiled from set-preview research and early community/theorycraft content —
-**not** official tournament Top Cut lists. Each archetype page's decklist
-carries its own provenance label (e.g. Sacred Beasts and RoLaD have more
-developed/dated sample lists; Blitzclique, Elfnote, and Angelechy are earlier
-theorycraft). Double-check exact card wording and the full banlist against
-Konami's official sources before finalizing your NAWCQ deck list.
+Card names, stats, and effect text in `data/archetypes/*.json` are verified
+against community card databases (ProjectIgnis BabelCDB and yaml-yugi) that
+track the released Chaos Origins set, and card art in `assets/cards/` comes
+from the yugioh-artworks mirrors of Konami's official database. Every sample
+decklist has been checked against the **May 18, 2026 TCG Forbidden & Limited
+List** (no Forbidden cards, no over-limit quantities), and `data/banlist.json`
+lists the actual changes from that update. The decklists themselves are still
+early community/theorycraft builds — **not** official tournament Top Cut
+lists — so treat them as starting points, and always cross-check the full
+official Konami banlist before finalizing your NAWCQ deck list.
 
 ## Running locally
 

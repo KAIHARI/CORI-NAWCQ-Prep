@@ -4,20 +4,22 @@
   "shorthand": null,
   "accentColor": "#2E8B57",
   "status": "supported",
-  "statusLabel": "Supported, Not New — debuted in Burst Protocol",
-  "summary": "Elfnote is NOT a Chaos Origins original — it debuted roughly 9 months earlier in Burst Protocol. CORI adds new support that completes the archetype's game plan. Level 6 Spellcaster monsters of varying Attributes plus Synchro Monsters, built around shuffling monsters through the Center Main Monster Zone and pairs well with a Synchron sub-engine.",
+  "statusLabel": "Supported, Not New — CORI adds June Pride",
+  "summary": "Elfnote is NOT a Chaos Origins original — the archetype predates the set, and CORI adds the support that completes its game plan. Level 6 Spellcaster monsters of varying Attributes plus Synchro Monsters, built around the center Main Monster Zone, with a Tuner (Elfnote Power Patron) that raises the center monster's Level to enable big Synchro plays. Pairs well with a Synchron sub-engine.",
   "cards": [
-    { "name": "Elfnote June Pride", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": null, "race": "Spellcaster", "level": null, "atk": null, "def": null, "effectText": "New in CORI. Can return itself to the Extra Deck during your Main Phase to Special Summon up to 1 Elfnote monster each from your hand, Deck, and GY (once per turn). Widely described as the card that 'completes' the archetype.", "slug": "elfnote-june-pride" },
-    { "name": "Elfnote Regina", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": 6, "atk": null, "def": null, "effectText": "Starter piece — can Special Summon itself under the right conditions and adds any Elfnote monster from the Deck to your hand.", "slug": "elfnote-regina" },
-    { "name": "Elfnote Fortuna", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": 6, "atk": null, "def": null, "effectText": "Places a card referred to as 'Rhapsodia of Madness,' can Special Summon itself from the GY, and can negate a face-up card on the field.", "slug": "elfnote-fortuna" },
-    { "name": "Elfnote Power Patron", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": "Spellcaster", "level": null, "atk": null, "def": null, "effectText": "Raises Elfnote Regina's Level, which is what enables Elfnote June Pride's Synchro Summon.", "slug": "elfnote-power-patron" },
-    { "name": "Medius the Pure", "cardType": "monster", "monsterType": "Effect", "attribute": null, "race": null, "level": null, "atk": null, "def": null, "effectText": "Cross-archetype tutor target shared with Artmage and DoomZ — a card can Special Summon it from hand or Deck if you control an Artmage, DoomZ, or Elfnote card.", "slug": "medius-the-pure" }
+    { "name": "Elfnote June Pride", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Spellcaster", "level": 10, "atk": 3100, "def": 1800, "effectText": "1 Tuner + 1 non-Tuner Spellcaster monster. While this card is in the center Main Monster Zone, neither player can declare attacks, except with monsters in their center Main Monster Zones. During the Main Phase, if this card is in the center Main Monster Zone (Quick Effect): You can return this card to the Extra Deck, and if you do, Special Summon up to 1 \"Elfnote\" monster each from your hand, Deck, and GY. You can only use this effect of \"Elfnote June Pride\" once per turn.", "slug": "elfnote-june-pride" },
+    { "name": "Elfnote Regina", "cardType": "monster", "monsterType": "Effect", "attribute": "WIND", "race": "Spellcaster", "level": 6, "atk": 2000, "def": 1800, "effectText": "If this card is in your hand (Quick Effect): You can send 1 other \"Elfnote\" card from your hand or face-up field to the GY; Special Summon this card. If this card is Normal or Special Summoned to the center Main Monster Zone: You can Special Summon 1 \"Elfnote\" monster from your Deck, except \"Elfnote Regina\". If this card is sent to the GY as Synchro Material: You can add this card to your hand. You can only use each effect of \"Elfnote Regina\" once per turn.", "slug": "elfnote-regina" },
+    { "name": "Elfnote Fortuna", "cardType": "monster", "monsterType": "Effect", "attribute": "LIGHT", "race": "Spellcaster", "level": 6, "atk": 2200, "def": 1800, "effectText": "You can Special Summon this card (from your hand) to your center Main Monster Zone. You can only Special Summon \"Elfnote Fortuna\" once per turn this way. You can only use each of the following effects of \"Elfnote Fortuna\" once per turn. During your Main Phase: You can place 1 \"Elfnote\" Continuous Trap from your hand or Deck, face-up on your field. During your opponent's turn (Quick Effect): You can switch the locations of this card in your Main Monster Zone and the monster in your center Main Monster Zone, then you can return 1 face-up Spell/Trap on the field to the hand.", "slug": "elfnote-fortuna" },
+    { "name": "Elfnote Power Patron", "cardType": "monster", "monsterType": "Tuner/Effect", "attribute": "FIRE", "race": "Fiend", "level": 1, "atk": 300, "def": 200, "effectText": "You cannot Special Summon from the Extra Deck, except Synchro Monsters. You can only use each of the following effects of \"Elfnote Power Patron\" once per turn. During the Main Phase (Quick Effect): You can target 1 monster in your center Main Monster Zone; increase its Level by 3 (until the end of this turn), then immediately after this effect resolves, you can Synchro Summon 1 \"Elfnote\" Synchro Monster or 1 \"Junora the Power Patron of Tuning\". If this card is sent to the GY as Synchro Material: You can add 1 \"Elfnote\" card from your Deck to your hand.", "slug": "elfnote-power-patron" },
+    { "name": "Medius the Pure", "cardType": "monster", "monsterType": "Effect", "attribute": "DARK", "race": "Fairy", "level": 4, "atk": 1800, "def": 1800, "effectText": "If this card is Normal or Special Summoned: You can add to your hand, or Special Summon, 1 \"Power Patron\" monster from your Deck. If this card is in your GY: You can shuffle 1 monster from your hand or face-up field into the Deck, and if you do, Special Summon this card, but banish it when it leaves the field. You can only use each effect of \"Medius the Pure\" once per turn.", "slug": "medius-the-pure" },
+    { "name": "Elfnotes: Rhapsodia of Madness", "cardType": "trap", "spellTrapSubtype": "Continuous", "effectText": "While you control a monster in your center Main Monster Zone, your opponent's monsters cannot attack, except to attack that monster. You can send 1 monster from your hand or field to the GY, then target 1 \"Elfnote\" monster in your GY with a different original Attribute; Special Summon it, then if you control a Synchro Monster, you can negate the effects of 1 face-up card your opponent controls until the end of this turn. You can only use this effect of \"Elfnotes: Rhapsodia of Madness\" once per turn.", "slug": "elfnotes-rhapsodia-of-madness" },
+    { "name": "Elfnotes: Quatrain of Succession", "cardType": "trap", "spellTrapSubtype": "Continuous", "effectText": "New in CORI. The monster in your center Main Monster Zone cannot be banished by your opponent's card effects. You can send 1 other Spell/Trap from your hand or field to the GY, then declare a Level from 1 to 4; Special Summon 1 \"Elfnote Seraphim Token\" (Plant/Tuner/FIRE/ATK 0/DEF 0) with the declared Level. While that Token is in the Monster Zone, the player who Summoned it cannot Special Summon from the Extra Deck, except \"Elfnote\" monsters. You can only use this effect of \"Elfnotes: Quatrain of Succession\" once per turn.", "slug": "elfnotes-quatrain-of-succession" }
   ],
   "comboLines": [
-    { "title": "Center Monster Zone shuffle into June Pride", "body": "Elfnote's signature play is cycling monsters through the Center Main Monster Zone to set up Synchro Summons. Use Elfnote Power Patron to raise Elfnote Regina's Level to the right number to Synchro Summon Elfnote June Pride, then bounce June Pride back to the Extra Deck on a later Main Phase to reload up to 3 more Elfnote monsters from hand, Deck, and GY." }
+    { "title": "Center-zone Level boost into June Pride", "body": "Get a Level 6 Elfnote into the center Main Monster Zone (Elfnote Fortuna can Special Summon itself there from hand; Elfnote Regina summoned to the center zone pulls another Elfnote from Deck). Elfnote Power Patron is a Level 1 Tuner whose Quick Effect raises the center monster's Level by 3 — 6 becomes 9, plus the Level 1 Tuner makes exactly 10 for Elfnote June Pride (or Junora the Power Patron of Tuning). Both Regina and Power Patron refund themselves when used as Synchro Material (Regina returns to hand, Power Patron searches any Elfnote card). Later, bounce June Pride off the center zone to reload up to 3 more Elfnote monsters from hand, Deck, and GY. Medius the Pure searches or summons Power Patron directly." }
   ],
   "sampleDecklist": {
-    "label": "Established archetype with real post-Burst-Protocol ladder data, now updated with CORI's June Pride support — more mature than the brand-new CORI archetypes, but this specific 40 is still a community/ladder build, not a verified NAWCQ Top Cut list.",
+    "label": "Established archetype updated with CORI's June Pride support — card names and stats verified against the card database, and the list checked against the May 18, 2026 TCG Forbidden & Limited List. Still a community/ladder build, not a verified Top Cut list.",
     "main": [
       { "name": "Elfnote Regina", "qty": 3 },
       { "name": "Elfnote Fortuna", "qty": 3 },
@@ -27,21 +29,25 @@
       { "name": "Starjunk Synchron", "qty": 1 },
       { "name": "Accel Synchron", "qty": 1 },
       { "name": "Quick Launch", "qty": 3 },
+      { "name": "Elfnotes: Rhapsodia of Madness", "qty": 1 },
+      { "name": "Elfnotes: Quatrain of Succession", "qty": 1 },
       { "name": "Ash Blossom & Joyous Spring", "qty": 3 },
       { "name": "Nibiru, the Primal Being", "qty": 2 },
-      { "name": "Called by the Grave", "qty": 2 },
+      { "name": "Called by the Grave", "qty": 1 },
+      { "name": "Crossout Designator", "qty": 1 },
       { "name": "Pot of Prosperity", "qty": 1 },
       { "name": "Pot of Desires", "qty": 2 },
       { "name": "Triple Tactics Talent", "qty": 1 },
       { "name": "Infinite Impermanence", "qty": 2 },
       { "name": "Droll & Lock Bird", "qty": 2 },
-      { "name": "Effect Veiler", "qty": 3 },
+      { "name": "Effect Veiler", "qty": 2 },
       { "name": "Forbidden Droplet", "qty": 2 },
-      { "name": "Solemn Strike", "qty": 2 }
+      { "name": "Solemn Strike", "qty": 1 }
     ],
     "extra": [
       { "name": "Elfnote June Pride", "qty": 2 },
-      { "name": "Baronne de Fleur", "qty": 1 },
+      { "name": "Junora the Power Patron of Tuning", "qty": 1 },
+      { "name": "Chaos Angel", "qty": 1 },
       { "name": "I:P Masquerena", "qty": 1 },
       { "name": "Clear Wing Synchro Dragon", "qty": 1 },
       { "name": "Hi-Speedroid Kendama", "qty": 1 },

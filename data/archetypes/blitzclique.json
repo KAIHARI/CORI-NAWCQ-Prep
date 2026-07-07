@@ -5,50 +5,52 @@
   "accentColor": "#F5C400",
   "status": "new",
   "statusLabel": "New Archetype — CORI",
-  "summary": "EARTH Thunder 'scavengers.' Members activate straight from your hand to destroy a card, then swarm the board and loot the wreckage for more resources. Aggressive, hand-trap-resistant, and built to punish opponents who activate monster effects into it.",
+  "summary": "EARTH Thunder 'scavengers.' Members activate straight from your hand to destroy a card, then swarm the board and loot the wreckage for more resources. Aggressive, hand-trap-resistant, and built to punish opponents who activate monster effects into it. Note the shared lock: after a Blitzclique hand effect resolves, you cannot Special Summon Effect Monsters except from the hand for the rest of the turn.",
   "cards": [
-    { "name": "Wisca Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": 8, "atk": 3000, "def": 2400, "effectText": "If a card was destroyed by a “Blitzclique” effect this turn: reveal this card in your hand to Special Summon up to 3 Thunder monsters from your hand, then destroy that many cards on the field. Also, bounce a Thunder monster you control to negate and destroy an opponent's activated monster effect.", "slug": "wisca-blitzclique" },
-    { "name": "Surge Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": 4, "atk": 1800, "def": 1200, "effectText": "Reveal this card in your hand to target and destroy 1 card, then Special Summon 1 Thunder monster from your hand. On the field: when a card is destroyed by a card effect, add a “Blitzclique” monster from your Deck to your hand.", "slug": "surge-blitzclique" },
-    { "name": "Grain Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": null, "atk": null, "def": null, "effectText": "Additional Blitzclique monster revealed in early CORI previews. Exact effect text unconfirmed — check the latest spoiler before building around it.", "slug": "grain-blitzclique" },
-    { "name": "Whisker Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": null, "atk": null, "def": null, "effectText": "Additional Blitzclique monster revealed in early CORI previews. Exact effect text unconfirmed — check the latest spoiler before building around it.", "slug": "whisker-blitzclique" },
-    { "name": "Crack Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": null, "atk": null, "def": null, "effectText": "Additional Blitzclique monster revealed in early CORI previews. Exact effect text unconfirmed — check the latest spoiler before building around it.", "slug": "crack-blitzclique" },
-    { "name": "Blitzclique – Breakaway", "cardType": "spell", "spellTrapSubtype": "Quick-Play", "effectText": "Place 1 “Blitzclique” Continuous Trap from your Deck face-up in your Spell & Trap Zone, or bounce 1 Thunder monster you control to destroy 1 card. Recurs itself from the GY.", "slug": "blitzclique-breakaway" },
-    { "name": "Blitzclique – Stepped Leader", "cardType": "spell", "spellTrapSubtype": "Continuous", "effectText": "Add a Thunder monster from your GY to your hand off a destruction trigger. Can Special Summon a Thunder monster from your hand, then destroys itself.", "slug": "blitzclique-stepped-leader" },
-    { "name": "Blitzclique – Return Stroke", "cardType": "trap", "spellTrapSubtype": "Continuous", "effectText": "Protects your Blitzclique monsters from opponent's card effects that would destroy them. Bounce a Blitzclique monster you control to negate and destroy an opponent's Spell activation. Banish this card from your GY to return a Blitzclique monster from GY to hand.", "slug": "blitzclique-return-stroke" },
-    { "name": "Blitzclique – Alternator", "cardType": "trap", "spellTrapSubtype": "Continuous", "effectText": "Your opponent's monsters lose 300 ATK/DEF for each Thunder monster you control. Shuffle a Blitzclique card you control back into the Deck to add a differently-named Thunder monster from your Deck to your hand.", "slug": "blitzclique-alternator" }
+    { "name": "Whisker Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": 8, "atk": 3000, "def": 2400, "effectText": "During the turn a card(s) was destroyed by your \"Blitzclique\" card effect (Quick Effect): You can reveal this card in your hand; Special Summon up to 3 Thunder monsters from your hand, then you can destroy up to that many cards on the field, also for the rest of this turn, you cannot Special Summon Effect Monsters, except from the hand. When a monster effect is activated, except in the hand (Quick Effect): You can return 1 other Thunder monster you control to the hand; negate the activation, and if you do, destroy that monster. You can only use each effect of \"Whisker Blitzclique\" once per turn.", "slug": "whisker-blitzclique" },
+    { "name": "Emi Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": 1, "atk": 900, "def": 300, "effectText": "If this card is added to your hand, except by drawing it: You can reveal this card, then target 1 card on the field; destroy it, and if you do, Special Summon 1 Thunder monster from your hand, also for the rest of this turn, you cannot Special Summon Effect Monsters, except from the hand. If another card(s) is destroyed by card effect, while this card is in the Monster Zone (except during the Damage Step): You can add 1 \"Blitzclique\" Trap from your Deck to your hand. You can only use each effect of \"Emi Blitzclique\" once per turn.", "slug": "emi-blitzclique" },
+    { "name": "Surge Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": 4, "atk": 1800, "def": 1200, "effectText": "You can reveal this card in your hand, then target 1 monster on the field; destroy it, and if you do, Special Summon 1 Thunder monster from your hand, also for the rest of this turn, you cannot Special Summon Effect Monsters, except from the hand. If another card(s) is destroyed by card effect, while this card is in the Monster Zone (except during the Damage Step): You can add 1 \"Blitzclique\" monster from your Deck to your hand, except \"Surge Blitzclique\". You can only use each effect of \"Surge Blitzclique\" once per turn.", "slug": "surge-blitzclique" },
+    { "name": "Crackle Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": 3, "atk": 1500, "def": 900, "effectText": "During your opponent's turn, when your opponent activates a monster effect on the field (Quick Effect): You can reveal this card in your hand; destroy that monster, and if you do, Special Summon 1 Thunder monster from your hand, also for the rest of this turn, you cannot Special Summon Effect Monsters, except from the hand. If another card(s) is destroyed by card effect, while this card is in the Monster Zone (except during the Damage Step): You can send 1 \"Blitzclique\" Spell/Trap from your Deck to the GY. You can only use each effect of \"Crackle Blitzclique\" once per turn.", "slug": "crackle-blitzclique" },
+    { "name": "Grain Blitzclique", "cardType": "monster", "monsterType": "Effect", "attribute": "EARTH", "race": "Thunder", "level": 2, "atk": 1200, "def": 600, "effectText": "You can reveal this card in your hand, then target 1 Spell/Trap on the field; destroy it, and if you do, Special Summon 1 Thunder monster from your hand, also for the rest of this turn, you cannot Special Summon Effect Monsters, except from the hand. If another card(s) is destroyed by card effect, while this card is in the Monster Zone (except during the Damage Step): You can add 1 \"Blitzclique\" Spell or 1 \"Hideout in the Sky, Coulomb\" from your Deck to your hand. You can only use each effect of \"Grain Blitzclique\" once per turn.", "slug": "grain-blitzclique" },
+    { "name": "Blitzclique - Breakaway", "cardType": "spell", "spellTrapSubtype": "Quick-Play", "effectText": "Activate 1 of these effects; ● Place 1 \"Blitzclique\" Continuous Trap from your Deck, face-up on your field. ● Return 1 Thunder monster you control to the hand, then target 1 card on the field; destroy it. If a card(s) is destroyed by your \"Blitzclique\" card's effect, while this card is in your GY (except during the Damage Step): You can add this card to your hand. You can only use each effect of \"Blitzclique - Breakaway\" once per turn.", "slug": "blitzclique-breakaway" },
+    { "name": "Blitzclique - Steppleader", "cardType": "spell", "spellTrapSubtype": "Continuous", "effectText": "If a card(s) is destroyed by your \"Blitzclique\" card's effect (except during the Damage Step): You can target 1 Thunder monster in your GY; add it to your hand. During your Main Phase: You can Special Summon 1 Thunder monster from your hand, then destroy this card. If a card(s) is destroyed by your \"Blitzclique\" card's effect, while this card is in your GY (except during the Damage Step): You can add this card to your hand. You can only use each effect of \"Blitzclique - Steppleader\" once per turn.", "slug": "blitzclique-steppleader" },
+    { "name": "Blitzclique Return Stroke", "cardType": "trap", "spellTrapSubtype": "Continuous", "effectText": "\"Blitzclique\" monsters you control cannot be destroyed by your opponent's card effects. You can only use each of the following effects of \"Blitzclique Return Stroke\" once per turn. When your opponent activates a Spell Card or effect: You can return 1 \"Blitzclique\" monster you control to the hand; negate that effect, and if you do, destroy that card. You can banish this card from your GY, then target 1 \"Blitzclique\" monster in your field or GY; return it to the hand.", "slug": "blitzclique-return-stroke" },
+    { "name": "Blitzclique Alternator", "cardType": "trap", "spellTrapSubtype": "Continuous", "effectText": "Monsters your opponent controls lose 300 ATK/DEF for each Thunder monster you control. You can only use each of the following effects of \"Blitzclique Alternator\" once per turn. You can shuffle 1 other \"Blitzclique\" card from your hand or face-up field into the Deck; add 1 Thunder monster with a different name from your Deck to your hand. You can banish this card from your GY; add 1 \"Blitzclique\" Spell or \"Hideout in the Sky, Coulomb\" from your Deck to your hand.", "slug": "blitzclique-alternator" },
+    { "name": "Hideout in the Sky, Coulomb", "cardType": "spell", "spellTrapSubtype": "Field", "effectText": "Monsters you control that were Normal or Special Summoned from the hand gain 500 ATK/DEF. You can only use each of the following effects of \"Hideout in the Sky, Coulomb\" once per turn. During your Main Phase: You can Special Summon 1 \"Mech Beast Token\" (Machine/EARTH/Level 6/ATK 2000/DEF 2000) to your opponent's field, and if you do, add 1 \"Blitzclique\" monster from your Deck to your hand. If a card(s) is destroyed by your \"Blitzclique\" card's effect, while this card is in your GY (except during the Damage Step): You can add this card to your hand.", "slug": "hideout-in-the-sky-coulomb" }
   ],
   "comboLines": [
-    { "title": "Turn 1 Breakaway loot loop (theorized starting point)", "body": "Open Blitzclique – Breakaway to place Return Stroke face-up from the Deck. Reveal Surge Blitzclique from hand to destroy a card and Special Summon a Thunder monster, triggering Stepped Leader's GY recursion. Chain into Wisca Blitzclique once a Blitzclique effect has destroyed a card this turn to swarm 3 more Thunder monsters from hand. This is a community-theorized line, not a confirmed tournament combo — the set is only days old." }
+    { "title": "Turn 1 Breakaway loot loop", "body": "Open Blitzclique - Breakaway to place Blitzclique Return Stroke face-up from the Deck. Reveal Surge Blitzclique from hand to destroy a monster and Special Summon a Thunder monster; every on-field Blitzclique that watched the destruction loots (Surge searches a monster, Emi searches a Trap, Grain fetches a Spell or the Field Spell, Crackle stocks the GY). Because a Blitzclique effect destroyed a card this turn, you can now reveal Whisker Blitzclique (Quick Effect) to swarm up to 3 Thunder monsters from hand and destroy up to that many cards. Mind the lock — after any of these hand effects you can only Special Summon Effect Monsters from the hand for the rest of the turn, so lead with your Extra Deck plays if you need them." }
   ],
   "sampleDecklist": {
-    "label": "Early theorycraft build assembled from CORI card previews — not a tournament-proven list. Treat as a starting point, not a final NAWCQ list.",
+    "label": "Early theorycraft build assembled from the released CORI card pool — card names and stats verified against the card database, and the list checked against the May 18, 2026 TCG Forbidden & Limited List. Treat as a starting point, not a final NAWCQ list.",
     "main": [
-      { "name": "Wisca Blitzclique", "qty": 3 },
+      { "name": "Whisker Blitzclique", "qty": 3 },
+      { "name": "Emi Blitzclique", "qty": 3 },
       { "name": "Surge Blitzclique", "qty": 3 },
       { "name": "Grain Blitzclique", "qty": 2 },
-      { "name": "Whisker Blitzclique", "qty": 2 },
-      { "name": "Crack Blitzclique", "qty": 2 },
-      { "name": "Blitzclique – Stepped Leader", "qty": 3 },
+      { "name": "Crackle Blitzclique", "qty": 2 },
+      { "name": "Blitzclique - Steppleader", "qty": 3 },
+      { "name": "Blitzclique - Breakaway", "qty": 3 },
+      { "name": "Blitzclique Return Stroke", "qty": 2 },
+      { "name": "Blitzclique Alternator", "qty": 2 },
+      { "name": "Hideout in the Sky, Coulomb", "qty": 1 },
       { "name": "Ash Blossom & Joyous Spring", "qty": 3 },
       { "name": "Nibiru, the Primal Being", "qty": 2 },
-      { "name": "Called by the Grave", "qty": 2 },
+      { "name": "Called by the Grave", "qty": 1 },
+      { "name": "Crossout Designator", "qty": 1 },
       { "name": "Pot of Prosperity", "qty": 1 },
-      { "name": "Pot of Extravagance", "qty": 1 },
       { "name": "Triple Tactics Talent", "qty": 1 },
       { "name": "Forbidden Droplet", "qty": 2 },
-      { "name": "Blitzclique – Breakaway", "qty": 3 },
-      { "name": "Blitzclique – Return Stroke", "qty": 2 },
-      { "name": "Blitzclique – Alternator", "qty": 2 },
       { "name": "Infinite Impermanence", "qty": 2 },
-      { "name": "Effect Veiler", "qty": 2 },
-      { "name": "Droll & Lock Bird", "qty": 2 }
+      { "name": "Droll & Lock Bird", "qty": 2 },
+      { "name": "Effect Veiler", "qty": 1 }
     ],
     "extra": [
       { "name": "Coral Dragon", "qty": 1 },
+      { "name": "Chaos Angel", "qty": 1 },
       { "name": "Underworld Goddess of the Closed World", "qty": 1 },
-      { "name": "Baronne de Fleur", "qty": 1 },
       { "name": "I:P Masquerena", "qty": 1 },
-      { "name": "Divine Arsenal AA-ZEUS – Sky Thunder", "qty": 1 },
+      { "name": "Divine Arsenal AA-ZEUS - Sky Thunder", "qty": 1 },
       { "name": "Number 41: Bagooska the Terribly Tired Tapir", "qty": 1 }
     ]
   }

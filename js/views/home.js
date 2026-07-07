@@ -26,7 +26,7 @@ const HomeView = {
         <div class="navgrid">
           <a class="navcard" href="#/archetypes" style="--accent: var(--red)">
             <div class="navcard__title">Archetype Guides</div>
-            <div class="navcard__desc">Blitzclique, Light and Darkness Ritual, Elfnote, Angelechy, Sacred Beasts — cards, combo lines, sample decklists.</div>
+            <div class="navcard__desc">Five archetypes worth knowing for NAWCQ 2026 — cards, combo lines, sample decklists.</div>
           </a>
           <a class="navcard" href="#/banlist">
             <div class="navcard__title">Banlist Reference</div>

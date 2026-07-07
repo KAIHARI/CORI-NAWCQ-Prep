@@ -27,6 +27,9 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Stamp service worker cache version
+        run: sed -i "s/const CACHE_VERSION = \"dev\"/const CACHE_VERSION = \"${GITHUB_SHA}\"/" service-worker.js
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

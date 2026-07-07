@@ -7,31 +7,34 @@
   "statusLabel": "World Premiere — CORI",
   "summary": "A World Premiere archetype: LIGHT Fairy Synchro Monsters with ZERO Main Deck monsters at all. Built around a floating chessboard Field Spell that shuttles chess-piece monsters between the Extra Deck, Monster Zones, and Spell & Trap Zone — parked there as Continuous Spells that gain static effects, mirroring a chessboard's back rank. Note: 'Angelechy' and 'the chess archetype' are the same thing, not two separate archetypes.",
   "cards": [
-    { "name": "Angelechy Problem", "cardType": "spell", "spellTrapSubtype": "Field", "effectText": "Discard a Spell/Trap to Special Summon a Level 2 Angelechy monster from the Extra Deck, and place another Angelechy monster from the Extra Deck into the Spell & Trap Zone as a Continuous Spell, once per turn. The archetype's central engine piece.", "slug": "angelechy-problem" },
-    { "name": "Angelechy Shatranga", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 10, "atk": 3000, "def": 0, "effectText": "The 'King' piece. As a monster: banish 1 opponent's monster. As a Continuous Spell (parked in the Spell & Trap Zone): caps your opponent to 5 monster-effect activations per turn.", "slug": "angelechy-shatranga" },
-    { "name": "Angelechy Bastion", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 8, "atk": 3000, "def": 2500, "effectText": "The 'Rook' piece. As a monster: banish 1 card in its own column. As a Continuous Spell: protects all Angelechy cards you control from opponent's destruction, and can place Angelechy Shatranga from the Extra Deck into the Spell & Trap Zone.", "slug": "angelechy-bastion" },
-    { "name": "Angelechy Destrier", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 7, "atk": 2500, "def": 2000, "effectText": "The 'Knight' piece. As a monster: banish 1 monster in another column. As a Continuous Spell: inflicts 500 damage whenever your opponent activates a card or effect, and can add an Angelechy Spell from your Deck to your hand.", "slug": "angelechy-destrier" },
-    { "name": "Angelechy Enlisted", "cardType": "monster", "monsterType": "Synchro/Tuner/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 2, "atk": 1500, "def": 1500, "effectText": "The 'Pawn' piece. As a monster: banish 1 opponent's monster in an adjacent column. On a successful capture, 'promotes' into another Angelechy monster.", "slug": "angelechy-enlisted" },
-    { "name": "Angelechy Disturbance", "cardType": "trap", "spellTrapSubtype": "Normal", "effectText": "Give your opponent control of an Angelechy monster, then negate face-up cards in adjacent zones. Banish this card from your GY to add an Angelechy Spell/Trap from your Deck to your hand.", "slug": "angelechy-disturbance" }
+    { "name": "Angelechy Problem", "cardType": "spell", "spellTrapSubtype": "Field", "effectText": "Once per turn: You can discard 1 Spell/Trap; Special Summon 1 Level 2 \"Angelechy\" monster from your Extra Deck, and if you do, place 1 \"Angelechy\" monster from your Extra Deck to your Spell & Trap Zone as a face-up Continuous Spell. If a face-up \"Angelechy\" Monster Card(s) you control is destroyed by battle or card effect: You can return 1 \"Angelechy\" Monster Card you own from your Spell & Trap Zone to the Extra Deck, then you can Special Summon it.", "slug": "angelechy-problem" },
+    { "name": "Angelechy Shatranga", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 10, "atk": 3000, "def": 0, "effectText": "1 Tuner + 1+ non-Tuners. The 'King' piece. You can target 1 monster your opponent controls; banish it. If this card is placed in the Spell & Trap Zone as a Continuous Spell: You can add 1 \"Angelechy\" Trap from your Deck or GY to your hand. You can only use each of the preceding effects of \"Angelechy Shatranga\" once per turn. While this card is treated as a Continuous Spell, your opponent can only attempt to activate up to 5 monster effects per turn.", "slug": "angelechy-shatranga" },
+    { "name": "Angelechy Bastion", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 8, "atk": 3000, "def": 2500, "effectText": "1 Tuner + 1+ non-Tuners. The 'Rook' piece. You can target 1 other card in this card's column; banish it. If this card is placed in the Spell & Trap Zone as a Continuous Spell: You can place 1 \"Angelechy Shatranga\" from your Extra Deck in your Spell & Trap Zone as a face-up Continuous Spell. You can only use each of the preceding effects of \"Angelechy Bastion\" once per turn. While this card is treated as a Continuous Spell, other \"Angelechy\" cards on the field cannot be destroyed by your opponent's card effects.", "slug": "angelechy-bastion" },
+    { "name": "Angelechy Destrier", "cardType": "monster", "monsterType": "Synchro/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 7, "atk": 2500, "def": 2000, "effectText": "1 Tuner + 1+ non-Tuners. The 'Knight' piece. You can target 1 monster in another column; banish it. If this card is placed in the Spell & Trap Zone as a Continuous Spell: You can add 1 \"Angelechy\" Spell from your Deck to your hand. You can only use each of the preceding effects of \"Angelechy Destrier\" once per turn. While this card is treated as a Continuous Spell, each time your opponent activates a card or effect, inflict 500 damage to your opponent when it resolves.", "slug": "angelechy-destrier" },
+    { "name": "Angelechy Enlisted", "cardType": "monster", "monsterType": "Synchro/Tuner/Effect", "attribute": "LIGHT", "race": "Fairy", "level": 2, "atk": 1500, "def": 1500, "effectText": "1 Tuner + 1 non-Tuner. The 'Pawn' piece. You can target 1 opponent's monster in this card's adjacent column; banish it, then change control of this card by moving it to one of your opponent's Main Monster Zones in this card's adjacent columns. If the control of this face-up card changes: Return this card to the Extra Deck, then the owner of this card Special Summons 1 \"Angelechy\" monster from their Extra Deck — the pawn 'promotes' after capturing. You can only use each effect of \"Angelechy Enlisted\" once per turn.", "slug": "angelechy-enlisted" },
+    { "name": "Angelechy Opening to e4", "cardType": "trap", "spellTrapSubtype": "Normal", "effectText": "If your opponent goes first, you can also activate this card from your hand during the Standby Phase of their first turn. Place 1 \"Angelechy\" Field Spell from your hand, Deck, or GY, face-up on your field, and if you do, Special Summon 1 Level 2 or 7 \"Angelechy\" monster from your Extra Deck to the Extra Monster Zone, and if you do that, place 1 \"Angelechy\" monster from your Extra Deck in your Spell & Trap Zone as a face-up Continuous Spell. Until the end of your next turn after this card resolves, you cannot Special Summon from the Extra Deck, except Synchro Monsters.", "slug": "angelechy-opening-to-e4" },
+    { "name": "Angelechy Disturbance", "cardType": "trap", "spellTrapSubtype": "Normal", "effectText": "Give control of 1 \"Angelechy\" monster you control to your opponent (until the End Phase), then if your opponent controls a face-up card(s) in its adjacent Monster Zones and/or Spell & Trap Zones, their effects are negated. You can banish this card from your GY; add 1 \"Angelechy\" Spell/Trap from your Deck to your hand, except \"Angelechy Disturbance\". You can only use each effect of \"Angelechy Disturbance\" once per turn.", "slug": "angelechy-disturbance" }
   ],
   "comboLines": [
-    { "title": "Chessboard back-rank setup", "body": "Angelechy Problem discards a Spell/Trap to Special Summon Angelechy Enlisted (Pawn) from the Extra Deck while parking a second Angelechy piece in the Spell & Trap Zone as a Continuous Spell. From there, Bastion protects the board and can place Shatranga; Destrier chips away with 500-damage triggers off every opponent activation. This is a community-theorized skeleton — the archetype is brand new, so treat exact sequencing as a starting point, not a solved line." }
+    { "title": "Chessboard back-rank setup", "body": "Angelechy Opening to e4 — activatable from hand during your opponent's first Standby Phase if they went first — fetches the Angelechy Problem Field Spell, drops a Level 2 (Enlisted) or 7 (Destrier) piece into the Extra Monster Zone, AND parks another piece in the Spell & Trap Zone as a Continuous Spell. From there Problem's once-per-turn discard keeps developing: Bastion as a Continuous Spell protects the board and places Shatranga; Destrier chips 500 damage per opponent activation; Shatranga caps your opponent at 5 monster-effect attempts per turn. Enlisted 'captures' by banishing in an adjacent column, hands itself to the opponent, then bounces to the Extra Deck and promotes into a bigger piece. Note Opening to e4 locks you to Synchro Monsters from the Extra Deck until the end of your next turn." }
   ],
   "sampleDecklist": {
-    "label": "Early theorycraft build — Angelechy is a World Premiere archetype only days old, so this is community/ladder content, not a tournament-proven list. Some builds pair this shell with a Synchron sub-engine instead of the pure Spell/Trap shell shown here.",
+    "label": "Early theorycraft build — Angelechy is a World Premiere archetype only days old. Card names and stats verified against the card database, and the list checked against the May 18, 2026 TCG Forbidden & Limited List. Some builds pair this shell with a Synchron sub-engine instead of the pure Spell/Trap shell shown here.",
     "main": [
       { "name": "Angelechy Problem", "qty": 3 },
+      { "name": "Angelechy Opening to e4", "qty": 2 },
       { "name": "Angelechy Disturbance", "qty": 2 },
       { "name": "Ash Blossom & Joyous Spring", "qty": 3 },
       { "name": "Nibiru, the Primal Being", "qty": 2 },
-      { "name": "Called by the Grave", "qty": 2 },
+      { "name": "Called by the Grave", "qty": 1 },
+      { "name": "Crossout Designator", "qty": 1 },
       { "name": "Terraforming", "qty": 1 },
       { "name": "Pot of Prosperity", "qty": 1 },
       { "name": "Pot of Desires", "qty": 2 },
       { "name": "Triple Tactics Talent", "qty": 1 },
       { "name": "Infinite Impermanence", "qty": 2 },
       { "name": "Solemn Judgment", "qty": 1 },
-      { "name": "Solemn Strike", "qty": 2 },
+      { "name": "Solemn Strike", "qty": 3 },
       { "name": "Droll & Lock Bird", "qty": 2 },
       { "name": "Effect Veiler", "qty": 3 },
       { "name": "Forbidden Droplet", "qty": 2 },
@@ -39,9 +42,7 @@
       { "name": "Cosmic Cyclone", "qty": 2 },
       { "name": "Twin Twisters", "qty": 2 },
       { "name": "Anti-Spell Fragrance", "qty": 1 },
-      { "name": "Fragrance Storm", "qty": 1 },
-      { "name": "Time Seal", "qty": 2 },
-      { "name": "Metaverse", "qty": 2 }
+      { "name": "Time Seal", "qty": 2 }
     ],
     "extra": [
       { "name": "Angelechy Shatranga", "qty": 2 },

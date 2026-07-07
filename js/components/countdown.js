@@ -8,14 +8,14 @@ const Countdown = {
     if (urgent) container.classList.add("countdown--urgent");
 
     container.innerHTML = `
-      <span class="countdown__label">${label}</span>
+      <span class="countdown__label">${escapeHtml(label)}</span>
       <div class="countdown__digits">
         <div class="countdown__unit"><div class="countdown__value" data-unit="d">--</div><div class="countdown__unitlabel">Days</div></div>
         <div class="countdown__unit"><div class="countdown__value" data-unit="h">--</div><div class="countdown__unitlabel">Hrs</div></div>
         <div class="countdown__unit"><div class="countdown__value" data-unit="m">--</div><div class="countdown__unitlabel">Min</div></div>
         <div class="countdown__unit"><div class="countdown__value" data-unit="s">--</div><div class="countdown__unitlabel">Sec</div></div>
       </div>
-      ${subLabel ? `<div class="countdown__sub">${subLabel}</div>` : ""}
+      ${subLabel ? `<div class="countdown__sub">${escapeHtml(subLabel)}</div>` : ""}
     `;
 
     const dEl = container.querySelector('[data-unit="d"]');

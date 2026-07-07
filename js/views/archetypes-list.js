@@ -27,7 +27,7 @@ const ArchetypesListView = {
 
       <a class="navcard" href="#/other-support">
         <div class="navcard__title">Other Chaos Origins Support</div>
-        <div class="navcard__desc">Archfiend, Artmage, Black Luster Soldier/Chaos, Clown Crew, DoomZ, Invoked, Melffy, Phantom Knights, Possessed, Power Patron, Rank-Up-Magic, S-Force, Trap Hole, Xyz Dragon, Konami Arcade Games.</div>
+        <div class="navcard__desc">Archfiend, Artmage/DoomZ, Black Luster Soldier/Chaos, Clown Crew, Invoked/Aleister, Melffy, Phantom Knights, Possessed, Power Patron, Rank-Up-Magic/Xyz Dragon, S-Force, Trap Hole, Konami Arcade Games.</div>
       </a>
     `;
   },

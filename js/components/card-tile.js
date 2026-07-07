@@ -16,8 +16,7 @@ const CardTile = {
 
     const statsBits = [];
     if (card.level !== undefined && card.level !== null) {
-      const label = card.monsterType && card.monsterType.includes("Synchro") ? "LV" : "LV";
-      statsBits.push(`${label} ${card.level}`);
+      statsBits.push(`LV ${card.level}`);
     }
     if (card.atk !== undefined && card.atk !== null) statsBits.push(`ATK <span>${card.atk}</span>`);
     if (card.def !== undefined && card.def !== null) statsBits.push(`DEF <span>${card.def}</span>`);
