@@ -102,9 +102,11 @@ Save the completed analysis to `analysis/<archetype-id>-interaction-breakdown.md
 ## The copy-paste prompt (reusable, one archetype per run)
 
 ```
-Run the Archetype Interaction Methodology (analysis/METHODOLOGY.md in this repo) on ONE archetype: <ARCHETYPE_ID>.
+Archetype: rolad
 
-Read data/archetypes/<ARCHETYPE_ID>.json in full — every card's effectText, all comboLines, and the sampleDecklist (main + extra). Do not use WebSearch, WebFetch, or any outside source; do not recall this archetype's real-world meta, tier placement, or known decklists from training — work only from the JSON file's text, data/banlist.json, data/event.json, and general Yu-Gi-Oh! rules-engine logic. For generic staples that appear only in sampleDecklist (no effectText in cards[]), classify them by broad functional category only per Phase 1a — don't invent specific text for them.
+Run the Archetype Interaction Methodology (analysis/METHODOLOGY.md in this repo) on the one archetype named above, whose id is used consistently for both its data file and its output file below.
+
+Read data/archetypes/<that archetype's id>.json in full — every card's effectText, all comboLines, and the sampleDecklist (main + extra). Do not use WebSearch, WebFetch, or any outside source; do not recall this archetype's real-world meta, tier placement, or known decklists from training — work only from the JSON file's text, data/banlist.json, data/event.json, and general Yu-Gi-Oh! rules-engine logic. For generic staples that appear only in sampleDecklist (no effectText in cards[]), classify them by broad functional category only per Phase 1a — don't invent specific text for them.
 
 Follow all 5 phases exactly as defined in analysis/METHODOLOGY.md:
 1. Card inventory & classification (incl. Phase 1a engine-vs-generic split)
@@ -113,7 +115,7 @@ Follow all 5 phases exactly as defined in analysis/METHODOLOGY.md:
 4. Weakness audit (structural, sequencing, redundancy)
 5. Ranked interaction breakdown (table + one-piece verdict + two-piece sequencing note + "don't bother" list)
 
-Save the result to analysis/<ARCHETYPE_ID>-interaction-breakdown.md, then give me the Phase 5 verdict directly in your reply.
+Save the result to analysis/<that archetype's id>-interaction-breakdown.md, then give me the Phase 5 verdict directly in your reply.
 ```
 
-Replace `<ARCHETYPE_ID>` with one of: `blitzclique`, `rolad`, `elfnote`, `angelechy`, `sacred-beasts`.
+Just edit the one line — `Archetype: rolad` — to any of: `blitzclique`, `rolad`, `elfnote`, `angelechy`, `sacred-beasts`. Everything else in the prompt derives from that single name.
